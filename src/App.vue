@@ -1,6 +1,7 @@
 <template lang="pug" >
   #app
-    router-view
+    .container
+      router-view
 </template>
 
 <script>
@@ -26,6 +27,9 @@ export default {
   text-align: center;
 }
 
+body {
+  background: #edeef0;
+}
 
 .container {
   max-width: 1024px;
@@ -494,5 +498,9 @@ template {
 
 [hidden] {
   display: none;
+}
+
+* {
+  box-sizing: border-box;
 }
 </style>

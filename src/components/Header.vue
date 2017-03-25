@@ -1,6 +1,6 @@
 <template lang="pug">
   .header
-    .logo
+    router-link.logo(to="/")
       img(src="../assets/logo.png")
     .nav
       .nav-item
@@ -42,6 +42,7 @@ export default {
   box-shadow: 0 1px 0 0 #d7d8db;
   border-radius: 2px;
   user-select: none;
+  overflow: hidden;
 
     .logo {
       width: 12%;
@@ -122,7 +123,8 @@ export default {
         .icon {
           position: relative;
           width: 25px;
-
+          height: 25px;
+          background: url('../assets/shopping-basket.svg') no-repeat center / contain;
 
         img {
           display: block;
