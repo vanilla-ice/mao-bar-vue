@@ -1,0 +1,145 @@
+<template lang="pug">
+  .header
+    .logo
+      img(src="../assets/logo.png")
+    .nav
+      .nav-item
+        |Меню
+      .nav-item
+        |Акции
+      .nav-item
+        |О Нас
+    .my-order
+      .icon
+        //- .counter
+        //-   span 32
+      .summ
+        |100500 ₽
+</template>
+
+<script>
+export default {
+  name: 'header',
+  data () {
+    return {
+    }
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss" rel="stylesheet/scss">
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  padding: 0px 0px 0px 20px;
+  background-color: #fffffe;
+  box-shadow: 0 1px 0 0 #d7d8db;
+  border-radius: 2px;
+  user-select: none;
+
+    .logo {
+      width: 12%;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+        img {
+          margin: 0 auto;
+          width: 110px;
+          height: auto;
+        }
+    }
+
+    .nav {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      width: 60%;
+      font-family: 'Open Sans', sans-serif;
+      padding-top: 13px;
+      cursor: pointer;
+      user-select: none;
+
+        a {
+          color: #000;
+        }
+
+        &-item {
+          padding-left: 50px;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 600;
+          text-decoration: none;
+
+            &:first-child {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .my-order {
+      width: 205px;
+      height: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 10px;
+      color: #fff;
+      background-color: #e06464;
+      padding: 20px 10px;
+      border-radius:  0px 2px 2px 0px;
+      position: relative;
+      cursor: pointer;
+      text-decoration: none;
+
+
+        .counter {
+            display: block;
+            background-color: #65bae2;
+            color: #fff;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 0%;
+            left: 65%;
+
+              span {
+                display: block;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 50%;
+              }
+        }
+
+        .icon {
+          position: relative;
+          width: 25px;
+
+
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+        .summ {
+          display: block;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 22px;
+          // margin-left: 10px;
+          text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+          text-align: center;
+
+        }
+    }
+}
+</style>

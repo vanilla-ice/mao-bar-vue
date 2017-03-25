@@ -4,12 +4,19 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+const products = fetch('../static/products.json')
+  .then(response => response.json())
+  .then(menu => {
+    new Vue({
+      el: '#app',
+      router,
+      ...menu,
+      template: '<App/>',
+      components: { App }
+    })
+  });
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
-})
