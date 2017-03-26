@@ -14,16 +14,15 @@ export default {
   data () {
     return {
       menu: this.$root.$options.menu,
-      section: this.$route.params.sectionId,
-      categories: null
     }
   },
 
-  mounted() {
-    for (let section in this.menu) {
-      if (this.menu[section].id === this.section) {
-        this.categories = this.menu[section].categories
-      }
+  computed: {
+    categories() {
+      return this.menu.find(e => e.id === this.section).categories
+    },
+    section() {
+      return this.$route.params.sectionId
     }
   },
 

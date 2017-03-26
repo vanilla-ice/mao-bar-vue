@@ -4,6 +4,7 @@ import Home from '@/pages/Home'
 import Menu from '@/pages/Menu'
 import ProductList from '@/components/ProductList'
 import CategoryList from '@/components/CategoryList'
+import ProductView from '@/components/ProductView'
 
 Vue.use(Router)
 
@@ -32,6 +33,12 @@ export default new Router({
           path: ':sectionId/:categoryId',
           name: 'productList',
           component: ProductList
+        },
+
+        {
+          path: ':sectionId/:categoryId/:productId',
+          name: 'productList',
+          component: ProductView
         }
       ]
     }

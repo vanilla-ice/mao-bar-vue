@@ -1,7 +1,7 @@
 <template lang="pug">
   .menu
     router-link.menu-item(v-for="(category, index) in categories", :to="`${category.id}`", :key="index")
-      | {{ category.name }} {{category.id}}
+      | {{ category.name }}
 </template>
 
 <script>
@@ -10,16 +10,15 @@ export default {
   data () {
     return {
       menu: this.$root.$options.menu,
-      section: this.$route.params.sectionId,
-      categories: null,
     }
   },
 
-  mounted() {
-    for (let section in this.menu) {
-      if (this.menu[section].id === this.section) {
-        this.categories = this.menu[section].categories
-      }
+  computed: {
+    categories() {
+      return this.menu.find(e => e.id === this.section).categories
+    },
+    section() {
+      return this.$route.params.sectionId
     }
   },
 
@@ -43,8 +42,6 @@ export default {
   max-height: calc(100vh - 120px);
   overflow-y: auto;
 
-
-
   &-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -52,6 +49,8 @@ export default {
     width: 100%;
     height: 20px;
     padding: 20px 0;
+    color: #000;
+    text-decoration: none;
 
     &:last-child {
       border: none;

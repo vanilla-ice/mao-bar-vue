@@ -13,16 +13,25 @@
           "products": [
             {
               "name": "Отбивная",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "1",
               "image": "/static/images/food.png"
             },
             {
               "name": "Борщ",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "2",
               "image": "/static/images/food.png"
             },
             {
               "name": "Макарошки",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "3",
               "image": "/static/images/food.png"
             }
@@ -36,16 +45,25 @@
           "products": [
             {
               "name": "Мороженое",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "4",
               "image": "/static/images/food.png"
             },
             {
               "name": "Пироженое",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "5",
               "image": "/static/images/food.png"
             },
             {
               "name": "Торт",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "6",
               "image": "/static/images/food.png"
             }
@@ -66,11 +84,17 @@
           "products": [
             {
               "name": "Виски",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "7",
               "image": "/static/images/food.png"
             },
             {
               "name": "Пиво",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "8",
               "image": "/static/images/food.png"
             }
@@ -84,11 +108,17 @@
           "products": [
             {
               "name": "Молочный коктейль",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "7",
               "image": "/static/images/food.png"
             },
             {
               "name": "Вода",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "8",
               "image": "/static/images/food.png"
             }
@@ -109,11 +139,17 @@
           "products": [
             {
               "name": "Яблоко",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "9",
               "image": "/static/images/food.png"
             },
             {
               "name": "Манго",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "10",
               "image": "/static/images/food.png"
             }
@@ -127,11 +163,17 @@
           "products": [
             {
               "name": "Кокос",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "11",
               "image": "/static/images/food.png"
             },
             {
               "name": "Кофе",
+              "description": "Описание продукта",
+              "weight": "200г",
+              "price": "400р",
               "id": "12",
               "image": "/static/images/food.png"
             }

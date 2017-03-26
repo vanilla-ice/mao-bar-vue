@@ -13,7 +13,12 @@ export default {
   data () {
     return {
       menu: this.$root.$options.menu,
-      category: this.$route.params.categoryId,
+    }
+  },
+
+  computed: {
+    category() {
+      return this.$route.params.categoryId
     }
   },
 

@@ -1,7 +1,10 @@
 <template lang="pug">
   .food
     .food-list
-      .food-item(v-for="(product, index) in products", :key="index", :style="`background: url(${product.image}) no-repeat center / cover`")
+      router-link.food-item(v-for="(product, index) in products",
+        :key="index",
+        :style="`background: url(${product.image}) no-repeat center / cover`",
+        :to="`${category}/${product.id}`")
         .food-name
           | {{product.name}}
         .food-price
