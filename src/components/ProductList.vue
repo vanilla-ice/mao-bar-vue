@@ -1,33 +1,121 @@
 <template lang="pug">
-  .menu-wrapper
-    | PRODUCTS
+  .food
+    .food-list
+      .food-item(v-for="(product, index) in products", :key="index", :style="`background: url(${product.image}) no-repeat center / cover`")
+        .food-name
+          | {{product.name}}
+        .food-price
+          input(type="button" class="add-to-card" value="Добавить в Заказ")
+
+    navigation-component
 </template>
 
 <script>
+import NavigationComponent from '../components/Navigation';
+
 export default {
   name: 'ProductList',
   data () {
     return {
       menu: this.$root.$options.menu,
-      section: this.$route.query.section,
-      categories: null
     }
   },
 
-  mounted() {
-    for (let section in this.menu) {
-      if (this.menu[section].section === this.section) {
-        this.$data.categories = this.menu[section].categories
-      }
+  computed: {
+    section() {
+      return this.$route.params.sectionId
+    },
+    category() {
+      return this.$route.params.categoryId
+    },
+    categories() {
+      return this.menu.find(e => e.id === this.section).categories
+    },
+    products() {
+      return this.categories.find(e => e.id === this.category).products
     }
   },
 
   components: {
+    NavigationComponent
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss" rel="stylesheet/scss">
+.food {
+  padding-top: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  &-list {
+    display: flex;
+    width: 80%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    overflow-y: auto;
+    padding-right: 2%;
+    max-height: calc(100vh - 120px);
+  }
+
+  &-item {
+    text-decoration: none;
+    margin-left: 3%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 31.3%;
+    min-height: 233.55px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    padding: 10px 10px;
+
+    &:nth-child(3n-2) {
+      margin-left: 0;
+    }
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(n+4) {
+      margin-top: 3%;
+    }
+  }
+
+    &-name {
+      font-family: 'Roboto Slab', serif;
+      font-weight: 400;
+      text-align: left;
+      color: white;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+    }
+
+    &-weight {
+      font-family: 'Roboto Slab', serif;
+      color: white;
+      font-size: 11px;
+    }
+
+    .add-to-card {
+      font-family: 'Open Sans', sans-serif;
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      padding: 10px;
+      background-color: #e06464;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+}
+
 
 </style>
