@@ -5,7 +5,7 @@
       img(src="../assets/logo.png")
 
     router-link.link(v-for="(section, index) in menu",
-      :to="{path: 'menu', query: {section: section.section}}",
+      :to="{path: `/menu/${section.id}`}",
       :key="index",
       :style="'background: url('+section.image+') no-repeat center / cover'")
       | {{ section.section }}

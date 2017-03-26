@@ -1,36 +1,33 @@
 <template lang="pug">
-  .menu-wrapper
-    header-component
-
-    .food
-      router-view
+  .categories-list
+    router-link.cat-item(v-for="(category, index) in categories",
+                        :style="`background: url(${category.image}) no-repeat center / cover`",
+                        :to="`${section}/${category.id}`",
+                        :key="index")
+      .cat-name
+        | {{ category.name }}
 </template>
 
 <script>
-import HeaderComponent from '../components/Header';
-
 export default {
-  name: 'menu',
+  name: 'CategoryList',
   data () {
     return {
-      // menu: this.$root.$options.menu,
-      // section: this.$route.params.sectionId,
-      // categories: null
+      menu: this.$root.$options.menu,
+      section: this.$route.params.sectionId,
+      categories: null
     }
   },
 
-  // mounted() {
-  //   for (let section in this.menu) {
-  //     if (this.menu[section].id=== this.section) {
-  //       this.categories = this.menu[section].categories
-  //     }
-  //   }
-  //
-  //   console.log(this.section)
-  // },
+  mounted() {
+    for (let section in this.menu) {
+      if (this.menu[section].id === this.section) {
+        this.categories = this.menu[section].categories
+      }
+    }
+  },
 
   components: {
-    HeaderComponent
   }
 }
 </script>
@@ -73,9 +70,4 @@ export default {
       letter-spacing: 0.2px;
     }
 }
-
-.food {
-  padding-top: 20px;
-}
-
 </style>

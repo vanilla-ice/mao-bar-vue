@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-const products = fetch('../static/products.json')
+const products = fetch('/static/products.json')
   .then(response => response.json())
   .then(menu => {
     new Vue({

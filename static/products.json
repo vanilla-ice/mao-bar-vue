@@ -3,11 +3,13 @@
 
     {
       "section": "Кухня",
-      "image": "static/images/kitchen.jpg",
+      "id": "kitchen",
+      "image": "/static/images/kitchen.jpg",
       "categories": [
         {
           "name": "Основные блюда",
-          "image": "static/images/kitchen.jpg",
+          "id": "main",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Отбивная",
@@ -26,7 +28,8 @@
 
         {
           "name": "Дессерты",
-          "image": "static/images/kitchen.jpg",
+          "id": "desserts",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Мороженое",
@@ -47,11 +50,13 @@
 
     {
       "section": "Бар",
-      "image": "static/images/bar.jpg",
+      "id": "bar",
+      "image": "/static/images/bar.jpg",
       "categories": [
         {
           "name": "Алкоголь",
-          "image": "static/images/kitchen.jpg",
+          "id": "alcohol",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Виски",
@@ -66,7 +71,8 @@
 
         {
           "name": "Безалкоголь",
-          "image": "static/images/kitchen.jpg",
+          "id": "nonalcohol",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Молочный коктейль",
@@ -83,11 +89,13 @@
 
     {
       "section": "Кальяны",
-      "image": "static/images/shisha.jpg",
+      "id": "hookah",
+      "image": "/static/images/shisha.jpg",
       "categories": [
         {
           "name": "Вкусные",
-          "image": "static/images/kitchen.jpg",
+          "image": "/static/images/kitchen.jpg",
+          "id": "tasty",
           "products": [
             {
               "name": "Яблоко",
@@ -102,7 +110,8 @@
 
         {
           "name": "Невкусные",
-          "image": "static/images/kitchen.jpg",
+          "image": "/static/images/kitchen.jpg",
+          "id": "notasty",
           "products": [
             {
               "name": "Кокос",

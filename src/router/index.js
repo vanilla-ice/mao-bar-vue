@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home'
 import Menu from '@/pages/Menu'
+import ProductList from '@/components/ProductList'
+import CategoryList from '@/components/CategoryList'
 
 Vue.use(Router)
 
@@ -18,7 +20,20 @@ export default new Router({
     {
       path: '/menu',
       name: 'menu',
-      component: Menu
+      component: Menu,
+      children: [
+        {
+          path: ':sectionId',
+          name: 'categoryList',
+          component: CategoryList
+        },
+
+        {
+          path: ':sectionId/:categoryId',
+          name: 'productList',
+          component: ProductList
+        }
+      ]
     }
   ]
 })
