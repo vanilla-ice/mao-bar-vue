@@ -12,10 +12,10 @@
           | {{ productData.description }}
         .add-button
           .weight {{ productData.weight }}
-          .add-to-card.add-to-card_product-view
-            | Добавить за {{ productData.price }}
+          .add-to-card.add-to-card_product-view(@click="store.commit({type: 'addProduct', product: productData})")
+            | Добавить за {{ productData.price }}р
 
-  recommended-products
+  recommended-products(:productData="productData")
 </template>
 
 <script>
@@ -47,6 +47,9 @@ export default {
     },
     productData() {
       return this.products.find(e => e.id === this.productId)
+    },
+    store() {
+      return this.$store
     }
   },
 
@@ -153,7 +156,7 @@ export default {
 .add-to-card {
   font-family: 'Open Sans', sans-serif;
   padding: 10px;
-  background-color: #e06464;
+  background-color: #4890b6;
   border: none;
   color: white;
   cursor: pointer;

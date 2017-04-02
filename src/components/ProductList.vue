@@ -20,7 +20,7 @@ export default {
   name: 'ProductList',
   data () {
     return {
-      menu: this.$root.$options.menu,
+      menu: this.$root.$options.menu
     }
   },
 
@@ -112,7 +112,7 @@ export default {
       bottom: 10px;
       left: 10px;
       padding: 10px;
-      background-color: #e06464;
+      background-color: #4890b6;
       border: none;
       color: white;
       cursor: pointer;

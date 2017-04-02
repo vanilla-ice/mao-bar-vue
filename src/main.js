@@ -3,13 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 
-const products = fetch('/static/products.json')
+fetch('/static/products.json')
   .then(response => response.json())
   .then(menu => {
     new Vue({
       el: '#app',
       router,
+      store,
       ...menu,
       template: '<App/>',
       components: { App }
@@ -18,5 +20,6 @@ const products = fetch('/static/products.json')
 
 
 Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */

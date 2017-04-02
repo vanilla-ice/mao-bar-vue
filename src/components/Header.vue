@@ -2,27 +2,81 @@
   .header
     router-link.logo(to="/")
       img(src="../assets/logo.png")
-    .nav
-      .nav-item
-        |Меню
-      .nav-item
-        |Акции
-      .nav-item
-        |О Нас
-    .my-order
-      .icon
-        //- .counter
-        //-   span 32
-      .summ
-        |100500 ₽
+    .button-container
+      .nav
+        router-link.nav-item(to="/")
+          |Меню
+        .nav-item
+          |Акции
+        .nav-item
+          |О Нас
+
+      .my-order(@click="togglePopup")
+        .icon
+          img(src="../assets/shopping-basket.svg")
+        .summ
+          |{{ price }} ₽
+    .popup(v-if="isPopupShow")
+      .order
+        .order-title(v-if="products.length > 0") Ваш заказ
+        .order-title(v-if="products.length < 1") Ваш заказ пуст
+        .order-list
+          cart-item(v-for="(product, index) in products", :productData="product", :key="index")
+        .order-sum(v-if="products.length > 0")
+          .clear(@click="store.commit('clearCart')") Очистить корзину
+          .sum Итого: {{price}} ₽
 </template>
 
 <script>
+import CartItem from './CartItem';
+
 export default {
   name: 'header',
   data () {
     return {
+      isPopupShow: false
     }
+  },
+
+  computed: {
+    store() {
+      return this.$store
+    },
+    products() {
+      const arrOfProducts = this.store.state.products;
+      let filteredArray = [];
+      let obj = {};
+
+      arrOfProducts.map((item, index) => {
+        obj[item.id] = item
+      })
+
+      for (let key in obj) {
+        filteredArray.push(obj[key]);
+      }
+
+      return filteredArray;
+    },
+
+    price() {
+      const arrOfProducts = this.store.state.products;
+      let price = 0;
+
+      arrOfProducts.map(item => price += +item.price);
+
+      return price;
+    }
+
+  },
+
+  methods: {
+    togglePopup: function() {
+      this.isPopupShow = !this.isPopupShow
+    }
+  },
+
+  components: {
+    CartItem
   }
 }
 </script>
@@ -37,20 +91,26 @@ export default {
   width: 100%;
   height: 80px;
   margin-top: 20px;
-  padding: 0px 0px 0px 20px;
   background-color: #fffffe;
   box-shadow: 0 1px 0 0 #d7d8db;
   border-radius: 2px;
   user-select: none;
-  overflow: hidden;
+  position: relative;
+
+    .button-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+    }
 
     .logo {
-      width: 12%;
-      font-family: 'Open Sans', sans-serif;
-      text-align: center;
+      align-self: center;
+      margin-left: 20px;
+
         img {
-          margin: 0 auto;
-          width: 110px;
+          width: 115px;
           height: auto;
         }
     }
@@ -58,32 +118,31 @@ export default {
     .nav {
       display: flex;
       flex-flow: row nowrap;
-      justify-content: flex-start;
-      width: 60%;
+      justify-content: flex-end;
+      height: 100%;
       font-family: 'Open Sans', sans-serif;
-      padding-top: 13px;
       cursor: pointer;
       user-select: none;
 
-        a {
-          color: #000;
-        }
-
         &-item {
-          padding-left: 50px;
+          font-family: 'Open sans', sans-serif;
+          display: flex;
+          flex-flow: row nowrap;
+          align-items: center;
           text-align: center;
-          font-size: 16px;
-          font-weight: 600;
+          font-size: 18px;
+          color: #fff;
+          text-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.2);
           text-decoration: none;
-
-            &:first-child {
-                padding-left: 0;
-            }
+          background-color: #4890b6;
+          padding: 0px 45px;
+          border-right: 2px solid #fff;
+          color: #fff;
         }
     }
 
     .my-order {
-      width: 205px;
+      min-width: 205px;
       height: 100%;
       display: flex;
       flex-flow: row nowrap;
@@ -92,39 +151,17 @@ export default {
       font-family: 'Open Sans', sans-serif;
       font-size: 10px;
       color: #fff;
-      background-color: #e06464;
+      background-color: #4890b6;
       padding: 20px 10px;
       border-radius:  0px 2px 2px 0px;
       position: relative;
       cursor: pointer;
       text-decoration: none;
 
-
-        .counter {
-            display: block;
-            background-color: #65bae2;
-            color: #fff;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            position: absolute;
-            top: 0%;
-            left: 65%;
-
-              span {
-                display: block;
-                position: absolute;
-                transform: translate(-50%, -50%);
-                top: 50%;
-                left: 50%;
-              }
-        }
-
         .icon {
           position: relative;
           width: 25px;
-          height: 25px;
-          background: url('../assets/shopping-basket.svg') no-repeat center / contain;
+
 
         img {
           display: block;
@@ -137,11 +174,132 @@ export default {
           font-family: 'Open Sans', sans-serif;
           font-weight: 400;
           font-size: 22px;
-          // margin-left: 10px;
           text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
           text-align: center;
 
         }
     }
 }
+
+.popup {
+    position: absolute;
+    z-index: 2;
+    bottom: -1px;
+    transform: translateY(100%);
+    right: 0px;
+    box-shadow: 0 0px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+}
+
+.order {
+  max-height: calc(100vh - 120px);
+  padding: 0 50px;
+  max-width: 565px;
+  min-height: 190px;
+  font-family: 'Open sans', sans-serif;
+  color: #666;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgb(215, 216, 219) 0px 1px 0px 0px;
+
+    &-title {
+      width: 100%;
+      text-align: left;
+      padding: 20px 0;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    &-list {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      min-height: 60px;
+      width: 100%;
+      overflow-y: auto;
+    }
+
+
+    &-sum {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      padding: 20px 0px;
+      display: flex;
+      align-self: stretch;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+}
+
+
+.order-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
+    .name {
+      text-align: left;
+      width: 210px;
+      margin-left: 10px;
+    }
+
+    .price {
+      text-align: center;
+      min-width: 50px;
+    }
+
+    .count {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      min-width: 100px;
+
+      .plus, .minus {
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 10px;
+      }
+
+      input[type="tel"] {
+        border: none;
+        // background-color: #ccc;
+        border: 1px #ccc solid;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        font-family: "open sans", sans-serif;
+        font-weight: 600;
+      }
+    }
+
+    .sum {
+      text-align: center;
+      min-width: 50px;
+    }
+
+    .del {
+      width: 15px;
+      height: 15px;
+      min-width: 15px;
+      min-height: 15px;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+}
+
+.clear {
+  border-bottom: 1px solid #ccc;
+}
+
+
 </style>

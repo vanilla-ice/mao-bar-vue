@@ -13,7 +13,8 @@ export default {
   },
 
   mounted() {
-    console.log(this.$root.$options.menu)
+    console.log('menu', this.$root.$options.menu)
+    console.log('store', this.$store)
   }
 
 }

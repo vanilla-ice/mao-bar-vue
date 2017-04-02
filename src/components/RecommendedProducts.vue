@@ -3,11 +3,20 @@
     .recommend-title
       |Рекомендуем
     .recommend-product
+      router-link.food-item(v-for="(item, index) in recommendedProducts",
+        :key="index",
+        :style="`background: url(${item.product.image}) no-repeat center / cover`",
+        :to="`/menu/${item.section}/${item.category}/${item.product.id}`")
+        .food-item-name
+          | {{item.product.name}}
+        .food-item-price
+          input(type="button" class="add-to-card" value="Добавить в Заказ" @click="addItem(item.product)")
 </template>
 
 <script>
 export default {
   name: 'RecommendedProducts',
+  props: ['productData'],
   data () {
     return {
       menu: this.$root.$options.menu,
@@ -15,14 +24,34 @@ export default {
   },
 
   computed: {
-    categories() {
-      return this.menu.find(e => e.id === this.section).categories
+    store() {
+      return this.$store;
     },
-    section() {
-      return this.$route.params.sectionId
-    },
-    product() {
-      return this.$route.params.productId
+
+    recommendedProducts() {
+      let arrayOfProducts = [];
+
+      this.menu.map((section, index) => {
+        section.categories.map((category, index) => {
+          category.products.map((product, index) => {
+            this.productData.recommend.map((recommendProduct, index) => {
+              if (recommendProduct === product.id) {
+                let productInfo = {product: product, section: section.id, category: category.id}
+                arrayOfProducts.push(productInfo);
+              }
+            })
+          })
+        })
+      })
+
+      return arrayOfProducts
+    }
+  },
+
+  methods: {
+    addItem: function(product) {
+      event.preventDefault();
+      this.store.commit({type: 'addProduct', product: product})
     }
   },
 
@@ -46,6 +75,10 @@ export default {
   background-color: white;
   box-shadow: 0 0 0 1px #d7d8db;
 
+  a {
+    text-decoration: none;
+  }
+
 
     &-title {
       font-family: 'Roboto Slab', serif;
@@ -57,7 +90,7 @@ export default {
     &-product {
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-between;
+      justify-content: flex-start;
       width: 100%;
       height: 100%;
       overflow-y: auto;
@@ -67,16 +100,37 @@ export default {
         margin-left: 0;
         width: 100%;
         min-height: 180px;
+        position: relative;
+        box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
 
-          &:first-child {
-            margin-top: 0;
-          }
+        &-name {
+          font-family: 'Roboto Slab', serif;
+          font-weight: 400;
+          text-align: left;
+          color: white;
+          font-size: 18px;
+          line-height: 24px;
+          letter-spacing: 0.2px;
+          padding: 10px;
 
-          .add-to-card {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-          }
+        }
+
+        &:first-child {
+          margin-top: 0;
+        }
+
+        .add-to-card {
+          font-family: 'Open Sans', sans-serif;
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+          padding: 10px;
+          background-color: #4890b6;
+          border: none;
+          color: white;
+          cursor: pointer;
+          border-radius: 3px;
+        }
         }
       }
 }
