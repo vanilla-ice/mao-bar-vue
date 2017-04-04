@@ -1,4 +1,4 @@
-# mao-bar-vuehui
+# mao-bar-vue
 
 > A Vue.js project
 
