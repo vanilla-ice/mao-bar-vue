@@ -6,16 +6,16 @@
       .nav
         router-link.nav-item(to="/")
           |Меню
-        .nav-item
+        router-link.nav-item(to="/promo")
           |Акции
-        .nav-item
+        router-link.nav-item(to="/about")
           |О Нас
 
       .my-order(@click="togglePopup")
         .icon
           img(src="../assets/shopping-basket.svg")
         .summ
-          |{{ price }} ₽
+          | {{ price }} ₽
     .popup(v-if="isPopupShow")
       .order
         .order-title(v-if="products.length > 0") Ваш заказ

@@ -8,6 +8,7 @@ import store from './store'
 fetch('/static/products.json')
   .then(response => response.json())
   .then(menu => {
+    console.log(menu)
     new Vue({
       el: '#app',
       router,

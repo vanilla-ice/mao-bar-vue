@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/Home'
 import Menu from '@/pages/Menu'
+import About from '@/pages/About'
+import Promo from '@/pages/Promo'
 import ProductList from '@/components/ProductList'
 import CategoryList from '@/components/CategoryList'
 import ProductView from '@/components/ProductView'
@@ -16,6 +18,18 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+
+    {
+      path: '/about',
+      name: 'about',
+      component: About
+    },
+
+    {
+      path: '/promo',
+      name: 'promo',
+      component: Promo
     },
 
     {
