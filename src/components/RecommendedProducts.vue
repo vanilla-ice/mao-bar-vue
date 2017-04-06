@@ -102,6 +102,7 @@ export default {
         min-height: 180px;
         position: relative;
         box-shadow: 0 0 0 128px rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
         &-name {
           font-family: 'Roboto Slab', serif;
@@ -121,6 +122,7 @@ export default {
 
         .add-to-card {
           font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
           position: absolute;
           bottom: 10px;
           left: 10px;

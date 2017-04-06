@@ -28,6 +28,56 @@ export default {
   text-align: center;
 }
 
+@font-face {
+	font-family: 'Open Sans';
+	src: url('./assets/fonts/OpenSans.eot');
+	src: url('./assets/fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/OpenSans.woff') format('woff'),
+		url('./assets/fonts/OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('./assets/fonts/RobotoSlab-Thin.eot');
+	src: url('./assets/fonts/RobotoSlab-Thin.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/RobotoSlab-Thin.woff') format('woff'),
+		url('./assets/fonts/RobotoSlab-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('./assets/fonts/RobotoSlab-Regular.eot');
+	src: url('./assets/fonts/RobotoSlab-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/RobotoSlab-Regular.woff') format('woff'),
+		url('./assets/fonts/RobotoSlab-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('./assets/fonts/RobotoSlab-Bold.eot');
+	src: url('./assets/fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/RobotoSlab-Bold.woff') format('woff'),
+		url('./assets/fonts/RobotoSlab-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('./assets/fonts/RobotoSlab-Light.eot');
+	src: url('./assets/fonts/RobotoSlab-Light.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/RobotoSlab-Light.woff') format('woff'),
+		url('./assets/fonts/RobotoSlab-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
 body {
   background: #edeef0;
 }

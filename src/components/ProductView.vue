@@ -129,7 +129,7 @@ export default {
       align-items: flex-start;
       padding-left: 10px;
       width: 50%;
-      height: 100%;
+
       max-height: 230px;
     }
 
@@ -143,9 +143,10 @@ export default {
 
     .add-button {
       .weight {
+        text-align: left;
         font-size: 12px;
         font-style: italic;
-        padding-top: 20px;
+        padding: 10px 0;
       }
         input {
           margin-top: 5px;
@@ -155,6 +156,7 @@ export default {
 
 .add-to-card {
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   padding: 10px;
   background-color: #4890b6;
   border: none;
