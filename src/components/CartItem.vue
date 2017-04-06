@@ -9,7 +9,7 @@
     input(type="tel", :value="counter")
     .plus(@click="store.commit({type: 'addProduct', product: product})") +
   .sum
-    |{{ product.weight }}
+    |{{ +counter * +product.price }} ₽
 </template>
 
 <script>

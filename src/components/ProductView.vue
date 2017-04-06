@@ -3,7 +3,8 @@
   .wrapper
     .title
       .name {{ productData.name }}
-      a.back(href="javascript:history.back()")
+      .back(@click="routerBack")
+        img(src="../assets/back.svg")
     .product
       .product-image
         img(:src="productData.image")
@@ -50,6 +51,13 @@ export default {
     },
     store() {
       return this.$store
+    },
+
+  },
+
+  methods: {
+    routerBack: function() {
+      return this.$router.go(-1)
     }
   },
 
