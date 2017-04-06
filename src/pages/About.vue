@@ -7,6 +7,7 @@
         | О нас
 
       .text
+        | {{ aboutText }}
 </template>
 
 <script>
@@ -16,6 +17,7 @@ export default {
   name: 'about',
   data () {
     return {
+      aboutText: this.$root.$options.about.text
     }
   },
 
@@ -42,6 +44,7 @@ export default {
 .text {
   text-align: left;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 </style>

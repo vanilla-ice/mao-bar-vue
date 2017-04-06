@@ -7,6 +7,11 @@
         | Акции
 
       .text
+        .item(v-for="(item, index) in promos", :key="index")
+          .title
+            | {{ item.name }} :
+          .description
+            | {{ item.description }}
 </template>
 
 <script>
@@ -16,12 +21,7 @@ export default {
   name: 'promo',
   data () {
     return {
-    }
-  },
-
-  computed: {
-    promos() {
-      
+      promos: this.$root.$options.promo
     }
   },
 
@@ -48,6 +48,7 @@ export default {
 .text {
   text-align: left;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 </style>
