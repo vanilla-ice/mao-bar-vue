@@ -8,7 +8,7 @@
         .food-name
           | {{product.name}}
         .food-price
-          input(type="button" class="add-to-card" value="Добавить в Заказ")
+          input(type="button" class="add-to-card" value="Добавить в Заказ" @click="addItem(product)")
 
     navigation-component
 </template>
@@ -36,6 +36,16 @@ export default {
     },
     products() {
       return this.categories.find(e => e.id === this.category).products
+    },
+    store() {
+      return this.$store
+    }
+  },
+
+  methods: {
+    addItem: function(product) {
+      event.preventDefault();
+      this.store.commit({type: 'addProduct', product: product})
     }
   },
 
