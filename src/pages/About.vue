@@ -42,6 +42,8 @@ export default {
 }
 
 .text {
+  max-height: calc(100vh - 185px);
+  overflow-y: auto;
   text-align: left;
   font-size: 16px;
   margin-top: 20px;
