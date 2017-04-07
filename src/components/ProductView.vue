@@ -87,11 +87,10 @@ export default {
   justify-content: flex-end;
   background-color: white;
   width: 100%;
-  min-height: 65px;
   font-family: 'Roboto Slab', serif;
   text-align: center;
   padding: 20px 0;
-  box-shadow: 0 1px 0 0 #d7d8db;
+  box-shadow: 0 0 0 1px #d7d8db;
   position: relative;
 
     .name {
@@ -118,7 +117,7 @@ export default {
   padding-top: 0;
   height: calc(100vh - 120px);
   background-color: white;
-  box-shadow: 0 1px 0 0 #d7d8db;
+  box-shadow: 0 0 0 1px #d7d8db;
   width: 100%;
 
     &-image {
