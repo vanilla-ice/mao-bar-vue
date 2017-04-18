@@ -4,12 +4,12 @@
     {
       "section": "Кухня",
       "id": "kitchen",
-      "image": "/static/images/kitchen.jpg",
+      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
       "categories": [
         {
           "name": "Основные блюда",
           "id": "main",
-          "image": "/static/images/kitchen.jpg",
+          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
           "products": [
             {
               "name": "Отбивная",
@@ -17,7 +17,7 @@
               "weight": "200г",
               "price": "400",
               "id": "1",
-              "image": "/static/images/food.png",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["5", "6", "10"]
             },
             {
@@ -26,7 +26,7 @@
               "weight": "200г",
               "price": "400",
               "id": "2",
-              "image": "/static/images/food.png",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["1", "3"]
             },
             {
@@ -35,7 +35,7 @@
               "weight": "200г",
               "price": "400",
               "id": "3",
-              "image": "/static/images/food.png",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["2", "1", "4"]
             },
             {
@@ -44,7 +44,7 @@
               "weight": "200г",
               "price": "400",
               "id": "4",
-              "image": "/static/images/food.png",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["1", "3"]
             }
           ]
@@ -53,7 +53,7 @@
         {
           "name": "Дессерты",
           "id": "desserts",
-          "image": "/static/images/kitchen.jpg",
+          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
           "products": [
             {
               "name": "Мороженое",
@@ -61,7 +61,7 @@
               "weight": "200г",
               "price": "400",
               "id": "5",
-              "image": "/static/images/dessert.jpg",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["2", "1", "4"]
             },
             {
@@ -90,12 +90,12 @@
     {
       "section": "Бар",
       "id": "bar",
-      "image": "/static/images/bar.jpg",
+      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
       "categories": [
         {
           "name": "Алкоголь",
           "id": "alcohol",
-          "image": "/static/images/kitchen.jpg",
+          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
           "products": [
             {
               "name": "Виски",
@@ -103,7 +103,7 @@
               "weight": "200г",
               "price": "400",
               "id": "8",
-              "image": "/static/images/alco.jpg",
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
               "recommend": ["12", "7", "11"]
             },
             {
@@ -113,7 +113,7 @@
               "price": "400",
               "id": "9",
               "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             },
             {
               "name": "Скотч",
@@ -122,7 +122,7 @@
               "price": "400",
               "id": "10",
               "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             },
             {
               "name": "Джин",
@@ -131,7 +131,7 @@
               "price": "400",
               "id": "11",
               "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             }
           ]
         },
@@ -139,7 +139,7 @@
         {
           "name": "Безалкоголь",
           "id": "nonalcohol",
-          "image": "/static/images/kitchen.jpg",
+          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
           "products": [
             {
               "name": "Молочный коктейль",
@@ -148,7 +148,7 @@
               "price": "400",
               "id": "12",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             },
             {
               "name": "Вода",
@@ -157,7 +157,7 @@
               "price": "400",
               "id": "13",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             },
             {
               "name": "Чай",
@@ -166,7 +166,7 @@
               "price": "400",
               "id": "14",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
             },
             {
               "name": "Американо",
