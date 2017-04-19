@@ -297,20 +297,24 @@
   ],
 
   "about": {
-    "text": "Длинный текст в о нас"
+    "text": "Длинный текст в о нас",
+    "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
   },
 
   "promo": [
     {
       "name": "Бесплатный кальянx",
-      "description": "При покупке салата кальян в подарок"
+      "description": "При покупке салата кальян в подарок",
+      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
     },
     {
       "name": "Бесплатный кальян",
-      "description": "При покупке салата кальян в подарок"
+      "description": "При покупке салата кальян в подарок",
+      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
     },
     {
       "name": "Бесплатный кальян",
+      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
       "description": "При покупке салата кальян в подарок"
     }
   ]
