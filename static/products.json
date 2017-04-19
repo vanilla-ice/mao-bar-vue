@@ -9,7 +9,7 @@
         {
           "name": "Основные блюда",
           "id": "main",
-          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+          "image": "https://eda.sakh.com/resources/images/site/cuisines-2.0/italian.jpg",
           "products": [
             {
               "name": "Отбивная",
@@ -17,7 +17,7 @@
               "weight": "200г",
               "price": "400",
               "id": "1",
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+              "image": "http://333v.ru/uploads/88/887dc6341f2c5e0f75e1a9800f1a22a5.jpg",
               "recommend": ["5", "6", "10"]
             },
             {
@@ -90,7 +90,7 @@
     {
       "section": "Бар",
       "id": "bar",
-      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+      "image": "http://lfly.ru/wp-content/uploads/2017/03/40-eda-oboi-kartinki-foto-1920x1080.jpg",
       "categories": [
         {
           "name": "Алкоголь",
@@ -203,7 +203,7 @@
     {
       "section": "Кальяны",
       "id": "hookah",
-      "image": "/static/images/shisha.jpg",
+      "image": "http://www.factroom.ru/facts/wp-content/uploads/2013/03/hamburg.jpg",
       "categories": [
         {
           "name": "Вкусные",
@@ -217,7 +217,7 @@
               "price": "400",
               "id": "18",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/food.png"
+              "image": "http://cdn.fishki.net/upload/post/201405/01/1265692/009.jpg"
             },
             {
               "name": "Манго",
