@@ -4,12 +4,12 @@
     {
       "section": "Кухня",
       "id": "kitchen",
-      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+      "image": "/static/images/kitchen.jpg",
       "categories": [
         {
           "name": "Основные блюда",
           "id": "main",
-          "image": "https://eda.sakh.com/resources/images/site/cuisines-2.0/italian.jpg",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Судак с креветками",
@@ -17,7 +17,7 @@
               "weight": "300г",
               "price": "400",
               "id": "1",
-              "image": "http://333v.ru/uploads/88/887dc6341f2c5e0f75e1a9800f1a22a5.jpg",
+              "image": "/static/images/food.png",
               "recommend": ["5", "6", "10"]
             },
             {
@@ -26,11 +26,7 @@
               "weight": "250г",
               "price": "300",
               "id": "2",
-<<<<<<< HEAD
-              "image": "https://drive.google.com/open?id=0B4twfgeX0sX9YWNzVFVmM0hVY00",
-=======
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
->>>>>>> c46522b8d64b556c42912ff2a753b2f24bb1d875
+              "image": "http://333v.ru/uploads/88/887dc6341f2c5e0f75e1a9800f1a22a5.jpg",
               "recommend": ["1", "3"]
             },
             {
@@ -39,7 +35,7 @@
               "weight": "350г",
               "price": "500",
               "id": "3",
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+              "image": "/static/images/food.png",
               "recommend": ["2", "1", "4"]
             },
             {
@@ -48,7 +44,7 @@
               "weight": "350г",
               "price": "380",
               "id": "4",
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+              "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
             {
@@ -147,20 +143,15 @@
         {
           "name": "Дессерты",
           "id": "desserts",
-          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Мороженое",
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-<<<<<<< HEAD
               "id": "25",
               "image": "/static/images/dessert.jpg",
-=======
-              "id": "5",
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
->>>>>>> c46522b8d64b556c42912ff2a753b2f24bb1d875
               "recommend": ["2", "1", "4"]
             },
             {
@@ -189,25 +180,20 @@
     {
       "section": "Бар",
       "id": "bar",
-      "image": "http://lfly.ru/wp-content/uploads/2017/03/40-eda-oboi-kartinki-foto-1920x1080.jpg",
+      "image": "/static/images/bar.jpg",
       "categories": [
         {
           "name": "Алкоголь",
           "id": "alcohol",
-          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Виски",
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-<<<<<<< HEAD
               "id": "38",
               "image": "/static/images/alco.jpg",
-=======
-              "id": "8",
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
->>>>>>> c46522b8d64b556c42912ff2a753b2f24bb1d875
               "recommend": ["12", "7", "11"]
             },
             {
@@ -217,7 +203,7 @@
               "price": "400",
               "id": "39",
               "recommend": ["1"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/alco.jpg"
             },
             {
               "name": "Скотч",
@@ -226,7 +212,7 @@
               "price": "400",
               "id": "310",
               "recommend": ["1"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/alco.jpg"
             },
             {
               "name": "Джин",
@@ -235,7 +221,7 @@
               "price": "400",
               "id": "311",
               "recommend": ["1"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/alco.jpg"
             }
           ]
         },
@@ -243,7 +229,7 @@
         {
           "name": "Безалкоголь",
           "id": "nonalcohol",
-          "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
+          "image": "/static/images/kitchen.jpg",
           "products": [
             {
               "name": "Молочный коктейль",
@@ -252,7 +238,7 @@
               "price": "400",
               "id": "412",
               "recommend": ["8", "7", "6", "14"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Вода",
@@ -261,7 +247,7 @@
               "price": "400",
               "id": "413",
               "recommend": ["8", "7", "6", "14"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Чай",
@@ -270,7 +256,7 @@
               "price": "400",
               "id": "414",
               "recommend": ["8", "7", "6", "14"],
-              "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+              "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Американо",
@@ -307,7 +293,7 @@
     {
       "section": "Кальяны",
       "id": "hookah",
-      "image": "http://www.factroom.ru/facts/wp-content/uploads/2013/03/hamburg.jpg",
+      "image": "/static/images/shisha.jpg",
       "categories": [
         {
           "name": "Вкусные",
@@ -321,7 +307,7 @@
               "price": "400",
               "id": "18",
               "recommend": ["8", "7", "6", "14"],
-              "image": "http://cdn.fishki.net/upload/post/201405/01/1265692/009.jpg"
+              "image": "/static/images/food.png"
             },
             {
               "name": "Манго",
@@ -401,23 +387,20 @@
   ],
 
   "about": {
-    "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+    "text": "Длинный текст в о нас"
   },
 
   "promo": [
     {
       "name": "Бесплатный кальянx",
-      "description": "При покупке салата кальян в подарок",
-      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+      "description": "При покупке салата кальян в подарок"
     },
     {
       "name": "Бесплатный кальян",
-      "description": "При покупке салата кальян в подарок",
-      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg"
+      "description": "При покупке салата кальян в подарок"
     },
     {
       "name": "Бесплатный кальян",
-      "image": "http://www.gastronom.ru/binfiles/images/20150804/m3b272ad.jpg",
       "description": "При покупке салата кальян в подарок"
     }
   ]
