@@ -12,41 +12,131 @@
           "image": "/static/images/kitchen.jpg",
           "products": [
             {
-              "name": "Отбивная",
-              "description": "Описание продукта",
-              "weight": "200г",
+              "name": "Судак с креветками",
+              "description": "",
+              "weight": "300г",
               "price": "400",
               "id": "1",
               "image": "/static/images/food.png",
               "recommend": ["5", "6", "10"]
             },
             {
-              "name": "Борщ",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
+              "name": "Форель на гриле",
+              "description": "",
+              "weight": "250г",
+              "price": "300",
               "id": "2",
-              "image": "/static/images/food.png",
+              "image": "https://drive.google.com/open?id=0B4twfgeX0sX9YWNzVFVmM0hVY00",
               "recommend": ["1", "3"]
             },
             {
-              "name": "Макарошки",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
+              "name": "Стейк из телятины",
+              "description": "Телятина – нежное нежирное мясо. Мы тщательно обжариваем его так, чтобы стейк сохранял сочность и аппетитный вид. Особую пкантность мясу придает клюквенный соус и пряности.",
+              "weight": "350г",
+              "price": "500",
               "id": "3",
               "image": "/static/images/food.png",
               "recommend": ["2", "1", "4"]
             },
             {
-              "name": "Стейк из говядины",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
+              "name": "Бефстроганов из говядины",
+              "description": "",
+              "weight": "350г",
+              "price": "380",
               "id": "4",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
-            }
+            },
+            {
+              "name": "Жаркое  из свинины",
+              "description": "",
+              "weight": "300г",
+              "price": "360",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Свинина в болгарском перце",
+              "description": "",
+              "weight": "350г",
+              "price": "400",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Свинина с персиками",
+              "description": "",
+              "weight": "300г",
+              "price": "400",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Курица на гриле с овощами",
+              "description": "",
+              "weight": "300г",
+              "price": "350",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Курица с соусом из сыра горгонзола",
+              "description": "",
+              "weight": "300г",
+              "price": "400",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Свиная корейка с картофелем по-деревенски и луком",
+              "description": "",
+              "weight": "450г",
+              "price": "430",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Сэндвич с курицей и беконом",
+              "description": "",
+              "weight": "300г",
+              "price": "290",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Сэндвич с лососем",
+              "description": "",
+              "weight": "300г",
+              "price": "320",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Бургер  с говядиной",
+              "description": "",
+              "weight": "300г",
+              "price": "350",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
+            {
+              "name": "Бургер МАО",
+              "description": "",
+              "weight": "300г",
+              "price": "300",
+              "id": "5",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "3"]
+            },
           ]
         },
 
