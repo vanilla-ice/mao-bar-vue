@@ -61,7 +61,7 @@
               "description": "",
               "weight": "350г",
               "price": "400",
-              "id": "5",
+              "id": "6",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -70,7 +70,7 @@
               "description": "",
               "weight": "300г",
               "price": "400",
-              "id": "5",
+              "id": "7",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -79,7 +79,7 @@
               "description": "",
               "weight": "300г",
               "price": "350",
-              "id": "5",
+              "id": "8",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -88,7 +88,7 @@
               "description": "",
               "weight": "300г",
               "price": "400",
-              "id": "5",
+              "id": "9",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -97,7 +97,7 @@
               "description": "",
               "weight": "450г",
               "price": "430",
-              "id": "5",
+              "id": "10",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -106,7 +106,7 @@
               "description": "",
               "weight": "300г",
               "price": "290",
-              "id": "5",
+              "id": "11",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -115,7 +115,7 @@
               "description": "",
               "weight": "300г",
               "price": "320",
-              "id": "5",
+              "id": "12",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -124,7 +124,7 @@
               "description": "",
               "weight": "300г",
               "price": "350",
-              "id": "5",
+              "id": "13",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -133,7 +133,7 @@
               "description": "",
               "weight": "300г",
               "price": "300",
-              "id": "5",
+              "id": "14",
               "image": "/static/images/food.png",
               "recommend": ["1", "3"]
             },
@@ -150,7 +150,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "5",
+              "id": "25",
               "image": "/static/images/dessert.jpg",
               "recommend": ["2", "1", "4"]
             },
@@ -159,7 +159,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "6",
+              "id": "26",
               "image": "/static/images/dessert.jpg",
               "recommend": ["2", "1", "4"]
             },
@@ -168,7 +168,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "7",
+              "id": "27",
               "image": "/static/images/dessert.jpg",
               "recommend": ["2", "4"]
             }
@@ -192,7 +192,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "8",
+              "id": "38",
               "image": "/static/images/alco.jpg",
               "recommend": ["12", "7", "11"]
             },
@@ -201,7 +201,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "9",
+              "id": "39",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             },
@@ -210,7 +210,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "10",
+              "id": "310",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             },
@@ -219,7 +219,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "11",
+              "id": "311",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             }
@@ -236,7 +236,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "12",
+              "id": "412",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             },
@@ -245,7 +245,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "13",
+              "id": "413",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             },
@@ -254,7 +254,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "14",
+              "id": "414",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             },
@@ -263,7 +263,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "15",
+              "id": "415",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             },
@@ -272,7 +272,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "16",
+              "id": "416",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             },
@@ -281,7 +281,7 @@
               "description": "Описание продукта",
               "weight": "200г",
               "price": "400",
-              "id": "17",
+              "id": "417",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
             }
