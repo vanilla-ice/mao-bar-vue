@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 
-fetch('https://raw.githubusercontent.com/vanilla-ice/mao-bar-vue/master/static/products.json')
+fetch('/static/products.json')
   .then(response => response.json())
   .then(menu => {
     console.log(menu)
