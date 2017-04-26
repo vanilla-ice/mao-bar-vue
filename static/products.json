@@ -7,6 +7,254 @@
       "image": "/static/images/kitchen.jpg",
       "categories": [
         {
+          "name": "Салаты",
+          "id": "salt",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Цезарь с морепродуктами",
+              "description": "Самый популярный в мире салат имеет множество вариаций и дополнений. Неизменным остается удивительный вкус соуса собственного приготовления в сочетании с хрустящим свежим салатом, пармезана и хрустящих гренок. В Мао Вы можете попробовать Цезарь с обжаренными морепродуктами.",
+              "weight": "250г",
+              "price": "360",
+              "id": "cesar-sea",
+              "image": "https://lh6.googleusercontent.com/6VkLL1xoF9ZyuBH8eqa9BtGrDE08wZAfrm1nTjUOf4euV0PUflx2GukGSaZM1u_YTWh8ySy9SsvnXlI=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Цезарь с креветкой",
+              "description": "Самый популярный в мире салат имеет множество вариаций и дополнений. Неизменным остается удивительный вкус соуса собственного приготовления в сочетании с хрустящим свежим салатом, пармезана и хрустящих гренок. В Мао Вы можете попробовать Цезарь с сочными тигровыми креветками.",
+              "weight": "250г",
+              "price": "360",
+              "id": "cesar-shrimp",
+              "image": "https://lh3.googleusercontent.com/jtJzfYrqN5CFKf11uW-s3yY9LjVo5iQ1NznWMVZzTTxsaBd3hy5qcpuml-_7XsoVMZqccQxkQXcwky4=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Цезарь с курицей",
+              "description": "Сочные листья салата Айсберг, заправлены классическим соусом Цезарь, кусочки обжаренного куриного филе, пармезан, томаты черри и румяные сухарики воссоздают поистине невероятный вкус салата.",
+              "weight": "250г",
+              "price": "290",
+              "id": "cesar-chiken",
+              "image": "https://lh6.googleusercontent.com/fi5hJ6qz_sRRsdGjB-AuWY19-36UTj1UYLxYgVI9m01FtFTTaINQvh5SzsHD8-ZXaTcnPfHNmywN5ig=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат овощной с медово-горчичной заправкой",
+              "description": "Классика любой кухни! Свежие овощи, салатный микс, все это с вкуснейшей медово-горчичной заправкой, пикантность которой делает салат особенным, не требует добавления соли и других специй.",
+              "weight": "200г",
+              "price": "240",
+              "id": "Honey-mustard",
+              "image": "https://lh6.googleusercontent.com/Rc1VhMWXVblIHyvIzEnEujjh8Hlw8xzNcluEoDDRx0aWmiK6oz17oBm7tAuYwhjfZS_pFsZ77ONH6VA=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Греческий салат",
+              "description": "Красочный салат из свежих овощей в сочетании с кусочками мягкого сыра - классика средиземноморской кухни. Он очень легкий, вкусный и свежий. А мягкий рассольный сыр Фета и маслины придают ему настоящий средиземноморский характер. ",
+              "weight": "250г",
+              "price": "260",
+              "id": "greek",
+              "image": "https://lh5.googleusercontent.com/yv6xUr2Tk9vh4_-cq11JP8EdwO04yILr9DtMRhNDpI1PBPVDMUEH0fO91GN5vvmbaUl0woBNm-7ripo=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат с морепродуктами и апельсином",
+              "description": "",
+              "weight": "250г",
+              "price": "360",
+              "id": "orange-and-seafood",
+              "image": "https://lh4.googleusercontent.com/oorSDCffTOxBfk879nX7kaOakPvubFKahPTD9Yp2vmYzVE95wxzLKHLy7MfmidICrHReJSoZ_TlPsUc=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат с лососем и персиком",
+              "description": "",
+              "weight": "250г",
+              "price": "390",
+              "id": "cesar-chiken",
+              "image": "/static/images/food.png",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат с креветками и грейпфрутом",
+              "description": "",
+              "weight": "200г",
+              "price": "400",
+              "id": "srimp-grape",
+              "image": "https://lh6.googleusercontent.com/Rps8nXtC1vRrxlVmGdkspN-oy9j1NACaxIOfdANEUI9fz1vCcYWdEulko0VgJ2IrjunAsULuzszsTM8=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат с курицей и грибами",
+              "description": "",
+              "weight": "250г",
+              "price": "320",
+              "id": "chicken-mush",
+              "image": "https://lh3.googleusercontent.com/FIDunujBhHaD-zu1HzUjOxgIqznxNvy1Jz6RPQzL4bCNzlzwozy34tC1zGq7o09PxDXBcy5fi_oK3WQ=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат теплый со свининой",
+              "description": "",
+              "weight": "300г",
+              "price": "390",
+              "id": "hot-becon",
+              "image": "https://lh4.googleusercontent.com/BHxONJfAGllYJCzFXFi7-wz92Po6stGqeiHBgG3OzA2oSw6k4_FFJS0eTIFv_o-THpF03vdgqOGF2_Q=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            },
+            {
+              "name": "Салат с тремя видами мяса",
+              "description": "",
+              "weight": "300г",
+              "price": "390",
+              "id": "three-meat",
+              "image": "https://lh3.googleusercontent.com/nsWwHK4xjapFimHEV3GRVud1Dy4Qx9uwRET8k0ifTGGAJZaoXegSYe15cqD0t1UQxH0ebk75PPH3p20=w1920-h920-rw",
+              "recommend": ["1", "2"]
+            }
+          ]
+        },
+        {
+          "name": "Закуски",
+          "id": "snaks",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Капрезе",
+              "description": "Салат «Капрезе» с соусом песто – одно из самых известных блюд средиземноморской кухни. Сочетание мягкой моцареллы с сочным сладким томатом и соусом из свежего базилика, кедровых орехов и специй кружит голову ароматами и порадует любого гурмана!",
+              "weight": "400г",
+              "price": "300",
+              "id": "kaprise",
+              "image": "https://lh6.googleusercontent.com/QNfL_EBzxurgC3jR9hOH0CfZ3f6x8ndazC6rvHhBPRyOeJ4m83YA2PEDDT5HIhwOdPXl54T9DXdvrJ0=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Креветки темпура в соусе васаби",
+              "description": "",
+              "weight": "220г",
+              "price": "490",
+              "id": "shrimp-tempura",
+              "image": "https://drive.google.com/file/d/0B4twfgeX0sX9eHViUWZuendQZzg/view",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Креветки отварные/жареные",
+              "description": "Жаренные до хрустящей корочки с  чили, чесночком и специями? Или отварные с ароматными травами и лимоном? Каждый найдет то, что ему по вкусу. Не забудьте взять бокал свежайшего пива или легкого вина.",
+              "weight": "250г",
+              "price": "290",
+              "id": "shrimp-brew",
+              "image": "https://lh4.googleusercontent.com/acz0NNUaEgEkssWfgOjvRze7BHtKLm6iSWt-GmAWmcXK0bW3VhCFy4JLWMtMtLqcUiEs_XIam-m0RMg=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Креветки тигровые на гриле",
+              "description": "Жаренные до хрустящей корочки с  чили, чесночком и специями? Или отварные с ароматными травами и лимоном? Каждый найдет то, что ему по вкусу. Не забудьте взять бокал свежайшего пива или легкого вина.",
+              "weight": "200г",
+              "price": "450",
+              "id": "shrimp-tiger",
+              "image": "https://lh4.googleusercontent.com/4kxfwI7P4l0r2JuU_sYt2XqWrqUl9IqhAIXw_Nfs0VJMFIz9q4mkUl1i6GPnol0u0nw3DV51kc0vDsI=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Крылья барбекю",
+              "description": "",
+              "weight": "300г",
+              "price": "300",
+              "id": "chiken-wings",
+              "image": "https://lh4.googleusercontent.com/7dW9CajTUzLWV3f7JLqOGnLAGFeWQGlwVc88b75dBH3XNkmN7L8grJVqF7pn7KYAddPWDSr_pVxFA6I=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Мидии в сливочном соусе",
+              "description": "",
+              "weight": "300г",
+              "price": "360",
+              "id": "chiken-wings",
+              "image": "https://lh5.googleusercontent.com/QJcRfq9JdJQnz9sxb4epU_SwiJ7Woph9j8wjHBmG8h5WaKH3VFqxDQtIxp8ddAcOeTsl32Xvm4K2vWc=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Сырные палочки",
+              "description": "",
+              "weight": "250г",
+              "price": "260",
+              "id": "cheese-stix",
+              "image": "https://lh6.googleusercontent.com/-y3TEowqoEX1JnizFOfXbWfCnqHkJNGIiFcIhke5y1kn8EmB2RVwn3WcGotZQQFGxE4skAa-Vcpbit8=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Плато сыров",
+              "description": "",
+              "weight": "250г",
+              "price": "500",
+              "id": "chees-plato",
+              "image": "https://lh4.googleusercontent.com/oMi7Q4eqvp4-vhmn5XaehuQ8T4xullkPMvVAbZ_455KJ157aR8hogyBnFHUN2psiGqoLLMAEPHelnJI=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Гренки",
+              "description": "",
+              "weight": "150г",
+              "price": "100",
+              "id": "toasts",
+              "image": "/static/images/food.png",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Суджук",
+              "description": "",
+              "weight": "50г",
+              "price": "150",
+              "id": "toasts",
+              "image": "/static/images/food.png",
+              "recommend": ["5", "6", "10"]
+            }
+          ]
+        },
+
+        {
+          "name": "Супы",
+          "id": "Soup",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Уха особая",
+              "description": "",
+              "weight": "300г",
+              "price": "280",
+              "id": "uha-special",
+              "image": "https://lh4.googleusercontent.com/hfj6mCniLtvgai8NtL8UUfWj5t3o9hbP8i8kkOUyx9lgCcQ1sfFmsydJHq72AFsSvQUqa0sCx83VblQ=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Крем-суп грибной",
+              "description": "",
+              "weight": "300г",
+              "price": "300",
+              "id": "mushroom-creamsoup",
+              "image": "https://lh5.googleusercontent.com/nJxQGUv1yWB-ZSUqcZu2FgmjO1EwuNry_kPtNJkg_K9EwOzawL5Ua0mOU6SSXyS8jDLcA3By0zWAF0E=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Лапша",
+              "description": "",
+              "weight": "300г",
+              "price": "250",
+              "id": "noodles",
+              "image": "https://lh3.googleusercontent.com/1OFgdJFFdHwbDnhuRaurw4sFWaxszTLe_7rkOY5NjHzC2TqAyGtmvH4HClZjUPd6RBFzXmbDjNoOf1Q=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            },
+            {
+              "name": "Солянка",
+              "description": "",
+              "weight": "300г",
+              "price": "300",
+              "id": "noodles",
+              "image": "https://lh6.googleusercontent.com/-g_AmHaGmT6Pm0J1BwhU0dS6UhzuP2E7UkeLPnSodpcXfoK1PqqegK6RgpOa36lCAnZiDWpa5tAixeE=w1920-h920-rw",
+              "recommend": ["5", "6", "10"]
+            }
+          ]
+        },
+
+        {
           "name": "Основные блюда",
           "id": "main",
           "image": "/static/images/kitchen.jpg",
@@ -26,7 +274,7 @@
               "weight": "250г",
               "price": "300",
               "id": "2",
-              "image": "http://333v.ru/uploads/88/887dc6341f2c5e0f75e1a9800f1a22a5.jpg",
+              "image": "https://lh3.googleusercontent.com/_DA1dBO8k21xlb95VrgQMbP-y3jYdbBvo1Sxku8MuWE6XgKOd8_IdOyXpN_bP6DVcAzqmYeI6rNYY4o=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -35,7 +283,7 @@
               "weight": "350г",
               "price": "500",
               "id": "3",
-              "image": "/static/images/food.png",
+              "image": "https://lh4.googleusercontent.com/t9OEvoOAUNlEQoWwEEDe1QbbieeVks0e-lFyFtaZwXWJ9S13jgouar3wp5jIIrFCh3VSZ7ZReng4uEY=w1920-h920-rw",
               "recommend": ["2", "1", "4"]
             },
             {
@@ -44,7 +292,7 @@
               "weight": "350г",
               "price": "380",
               "id": "4",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/8KjZbDR-HTeaY6jhXjl5LHvVsgbA3NFb16Lzg6TzWUsJDpczTjpivqm_VZjgIsZy-di1bHX75F1x8uo=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -53,7 +301,7 @@
               "weight": "300г",
               "price": "360",
               "id": "5",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/2eXRCofFbYJRg6p2eicO-16JuJPVC-pO-puk6wqZjDThIj1H1NIED_VzYEFZZpXV5nDN5NF0GbAL__c=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -62,7 +310,7 @@
               "weight": "350г",
               "price": "400",
               "id": "6",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/w6133jPA2PIQs7k7vRHm89hgdgBSBUUzI90Nfx8hLFpg0QEc_gNV0FJ31jZDxe_H-UsDa4qX4ph-eQc=w1920-h920-rw ",
               "recommend": ["1", "3"]
             },
             {
@@ -71,7 +319,7 @@
               "weight": "300г",
               "price": "400",
               "id": "7",
-              "image": "/static/images/food.png",
+              "image": "https://lh6.googleusercontent.com/HrytxaI_8BKgRMrDvMdtTC3s2N2vymCvmQKZRRHHRLyWWyHjUcqxnST4A_BQKn5HR9p7woAq6UGxbbU=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -80,7 +328,7 @@
               "weight": "300г",
               "price": "350",
               "id": "8",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/3UFr7UMeHzS1wB-gZArHVNaQM3jRPboEZxcHC__olcC3HVSLfzpVykVRge4o5EpBWHLGpR9VdU26qd0=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -89,7 +337,7 @@
               "weight": "300г",
               "price": "400",
               "id": "9",
-              "image": "/static/images/food.png",
+              "image": "https://lh6.googleusercontent.com/6tu3T6GIghhb-lDgGTB3JAF2b-2E8Ch5GaOQMMEgWbWLoxQw571PoDX2Dx0zrpHdgNwc-HzinQCoMUg=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -98,7 +346,7 @@
               "weight": "450г",
               "price": "430",
               "id": "10",
-              "image": "/static/images/food.png",
+              "image": "https://lh4.googleusercontent.com/jHC4BNT_SrnUODNNd6SNgqWSMpqCoxYn0XbZww9UunivC2-XZGTF8esPkV0Y89oEw64-W1YQ7XdtARU=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -107,7 +355,7 @@
               "weight": "300г",
               "price": "290",
               "id": "11",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/np91kKXQbRikzCpbQ5e9bxM1fIl04Ig7TEUS9DrYKKHLjoit1bcsOtUKo72A3sVRpK24LuP4jzMa_kE=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -116,7 +364,7 @@
               "weight": "300г",
               "price": "320",
               "id": "12",
-              "image": "/static/images/food.png",
+              "image": "https://lh3.googleusercontent.com/yFSjxoL4W4HCFwAvZl4mx6QEw_uAWpN9cBo305nApQcP9lSLDto6fUX_W-TgJ5xbg8EohqBIFWKDOJo=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -125,7 +373,7 @@
               "weight": "300г",
               "price": "350",
               "id": "13",
-              "image": "/static/images/food.png",
+              "image": "https://lh5.googleusercontent.com/wPyCcBbvZSQNgwRAdXCsV7gRnfuTIYZTRjPu_C3QntcoRkavZttqeLp7DKoTIQ6OXeGtjE6YsCla-10=w1920-h920-rw",
               "recommend": ["1", "3"]
             },
             {
@@ -134,9 +382,62 @@
               "weight": "300г",
               "price": "300",
               "id": "14",
-              "image": "/static/images/food.png",
+              "image": "https://lh4.googleusercontent.com/zqBgkpay6PC__Ak0nVzYCj9yPBXncRv-4L59U8c8v94c_-6HRW7SR2MM0t00Uaj4nf6bpbp10rCTHxI=w1920-h920-rw",
               "recommend": ["1", "3"]
+            }
+          ]
+        },
+
+        {
+          "name": "Паста",
+          "id": "Pasta",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Спагетти Карбонара",
+              "description": "",
+              "weight": "300г",
+              "price": "330",
+              "id": "Karbonara",
+              "image": "https://lh3.googleusercontent.com/AMLvr51GJ9r8B22HYryLXhY_gIOFj0MIbFpl0W3G2m7Te1WB65S388F54vbK-V2_Owi6hWI3RpE9omg=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
             },
+            {
+              "name": "Спагетти с овощами",
+              "description": "",
+              "weight": "300г",
+              "price": "300",
+              "id": "spagetti-vege",
+              "image": "https://lh3.googleusercontent.com/KgFbOivjWYEl26kDPbW95PJnBfr3F18iQT90WdlN1VxmfW2WE6MqSDJFvNOjX8B-GB4q43sIry1qcOU=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Фетучини с курицей и грибами",
+              "description": "",
+              "weight": "300г",
+              "price": "360",
+              "id": "Fetuchinni-chiken",
+              "image": "https://lh5.googleusercontent.com/cyQmp21V0HIWbh3S8vceZZYv3Uba4tqcQWUcVE7aPUK0GyfAvUImOLQ_ntgwg5XxS4CAMaNiEub-n1A=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Фетучини с морепродуктами",
+              "description": "",
+              "weight": "300г",
+              "price": "390",
+              "id": "Fetuchinni-seafood",
+              "image": "https://lh5.googleusercontent.com/ilnwuKpPedEBWYZgH82-uuZTbSXpAC1MfDA8_pfoq6V1453U8ahJyLkV5unc2ZjZQMxBlWBYA-lWhm8=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Фетучини с креветками",
+              "description": "",
+              "weight": "300г",
+              "price": "380",
+              "id": "Fetuchinni-shrimp",
+              "image": "https://lh5.googleusercontent.com/3utNLOkKyFmt-ew-d5bL8MImGofD5QhbHmIhhaKc_FlNvHwN8G0XJ1_OWuv1rHdEcbhcDsaJVPaClEM=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            }
           ]
         },
 
@@ -146,31 +447,163 @@
           "image": "/static/images/kitchen.jpg",
           "products": [
             {
-              "name": "Мороженое",
-              "description": "Описание продукта",
+              "name": "Тортино шоколадное",
+              "description": "",
               "weight": "200г",
-              "price": "400",
-              "id": "25",
+              "price": "280",
+              "id": "tortino",
+              "image": "https://lh3.googleusercontent.com/JavhjXUX2-fnZk6cmBDfbw6hANXQo9YQ0vNqYXDJMpf-upkt9Nbb1bkXaNqW4bedytiLRtyK8Az84dE=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Штрудель яблочный",
+              "description": "",
+              "weight": "250г",
+              "price": "220",
+              "id": "strudel",
               "image": "/static/images/dessert.jpg",
               "recommend": ["2", "1", "4"]
             },
             {
-              "name": "Пироженое",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "26",
+              "name": "Чизкейк New York",
+              "description": "",
+              "weight": "110г",
+              "price": "200",
+              "id": "cheesecacke-ny",
+              "image": "https://lh5.googleusercontent.com/lLS62Dxg7XbX7qkNQ9DyHGa-gMdGpYm8k3r87EbKGgLTQBJNkWcoUKmBH-w2HzQ5dn4JB0JdgZYlCn4=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Шоколадный чизкейк с орехами",
+              "description": "",
+              "weight": "230г",
+              "price": "220",
+              "id": "cheesecacke-ny",
+              "image": "https://lh3.googleusercontent.com/HSDNpCQcLPdzPiJtug40RdLXUaDRZ9gDLfQrbJCyjM6nYn3OPMmUs2_JvFfaNsF563fS5MZM0SR5rmM=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Черничный пирог",
+              "description": "",
+              "weight": "110г",
+              "price": "200",
+              "id": "blueberry-pie",
               "image": "/static/images/dessert.jpg",
               "recommend": ["2", "1", "4"]
             },
             {
-              "name": "Торт",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "27",
+              "name": "Тирамису",
+              "description": "",
+              "weight": "120г",
+              "price": "250",
+              "id": "tiramisu",
               "image": "/static/images/dessert.jpg",
-              "recommend": ["2", "4"]
+              "recommend": ["2", "1", "4"]
+            },
+            {
+                "name": "Мороженое в ассортименте",
+              "description": "",
+              "weight": "100г",
+              "price": "100",
+              "id": "ice-cream",
+              "image": "https://lh6.googleusercontent.com/audYnBgLFTiUVzWzG9KPZ_QzXCVYtjAu52SeskYFLwnEQpjOERKApbKIYuam4vFMvI8MKo_trXiaGOU=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Фруктовая тарелка",
+              "description": "",
+              "weight": "500г",
+              "price": "350",
+              "id": "ice-cream",
+              "image": "https://lh3.googleusercontent.com/VKDqwB-7sNBMH3nwj_o2MwH_zQEGVmAdrA8lB83Hl3y-bqHQtIQryoOB93-C3vB_jBrv4opGKedDHpQ=w1920-h920-rw",
+              "recommend": ["2", "1", "4"]
+            }
+          ]
+        },
+
+        {
+          "name": "Гарниры",
+          "id": "garnish",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Картофель фри",
+              "description": "",
+              "weight": "150г",
+              "price": "120",
+              "id": "fries",
+              "image": "",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Картофель по-деревенски",
+              "description": "",
+              "weight": "150г",
+              "price": "120",
+              "id": "potato",
+              "image": "",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Овощи на гриле",
+              "description": "",
+              "weight": "210г",
+              "price": "200",
+              "id": "grill-vege",
+              "image": "",
+              "recommend": ["2", "1", "4"]
+            },
+            {
+              "name": "Брокколи с чесноком",
+              "description": "",
+              "weight": "110г",
+              "price": "150",
+              "id": "brokkoli",
+              "image": "",
+              "recommend": ["2", "1", "4"]
+            }
+          ]
+        },
+
+        {
+          "name": "Хлеб",
+          "id": "bread",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Хлебные тосты",
+              "description": "",
+              "weight": "40г",
+              "price": "30",
+              "id": "bread-toast",
+              "image": "",
+              "recommend": []
+            },
+            {
+              "name": "Хлебная корзина",
+              "description": "",
+              "weight": "120г",
+              "price": "100",
+              "id": "bread-basket",
+              "image": "",
+              "recommend": []
+            }
+          ]
+        },
+
+        {
+          "name": "Добавки",
+          "id": "adds",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Соус в ассортименте",
+              "description": "",
+              "weight": "50г",
+              "price": "50",
+              "id": "sous",
+              "image": "",
+              "recommend": []
             }
           ]
         }
@@ -183,43 +616,250 @@
       "image": "/static/images/bar.jpg",
       "categories": [
         {
-          "name": "Алкоголь",
-          "id": "alcohol",
+          "name": "Алкогольные коктейли",
+          "id": "coctails-alcohol",
           "image": "/static/images/kitchen.jpg",
           "products": [
             {
-              "name": "Виски",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "38",
+              "name": "Голубая лагуна",
+              "description": "Коктейль лазурного цвета  с кисло – сладким, цитрусовым вкусом названный за красоту в честь Исландского куррорта.",
+              "weight": "350мл",
+              "price": "300",
+              "id": "blue-lagoon",
               "image": "/static/images/alco.jpg",
-              "recommend": ["12", "7", "11"]
+              "recommend": []
             },
             {
-              "name": "Пиво",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "39",
+              "name": "Игристая белая сангрия",
+              "description": "Один из самых популярных коктейлей, основными составляющими которого являются вино, лед и фрукты. Легкий, игристый, прямо из жаркой Испании!",
+              "weight": "1300мл",
+              "price": "1200",
+              "id": "sangria",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             },
             {
-              "name": "Скотч",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "310",
+              "name": "Мой Май",
+              "description": "Тот самый Май. Май, который всегда в Вашем сердце.",
+              "weight": "180мл",
+              "price": "380",
+              "id": "my-may",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             },
             {
-              "name": "Джин",
-              "description": "Описание продукта",
-              "weight": "200г",
+              "name": "Дымный яблочный пирог",
+              "description": "Попить пирог? Поесть коктейль? Невозможно описать - нужно пробовать!",
+              "weight": "260мл",
+              "price": "350",
+              "id": "apple-pie",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Цвета осени",
+              "description": "Зеленый. Желтый. Красный.  Цитрусовый бум в Вашем бокале.",
+              "weight": "320мл",
+              "price": "320",
+              "id": "autumn-colors",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Маргарита",
+              "description": "По одной из легенд, молодой бармен влюбился в дочку хозяина бара, в котором он работал. Конечно же девушку звали Маргарита и для того, чтобы покорить красавицу, юноша сочинил интересное сочетание сладости и соли. Как сложилась дальнейшая судьба молодых людей мы не знаем, а вот коктейль остается один из самых популярных вот уже более 70 лет! ",
+              "weight": "150мл",
               "price": "400",
-              "id": "311",
+              "id": "Margarita",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Маргарита личи",
+              "description": "",
+              "weight": "200мл",
+              "price": "400",
+              "id": "Margarita-lichi",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Маргарита вишневая",
+              "description": "",
+              "weight": "200мл",
+              "price": "400",
+              "id": "Margarita-cherry",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Дайкири",
+              "description": "Дайкири.. Любимый коктейль Эрнесто Хемингуэя. Родом с Кубы, вот уже больше ста (!) лет является эталоном сбалансированности вкуса, а именно кислоты, сладости и горечи. Коктейль, который должен попробовать каждый.",
+              "weight": "150мл",
+              "price": "350",
+              "id": "daikiri",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Дайкири смородиновый",
+              "description": "",
+              "weight": "160мл",
+              "price": "400",
+              "id": "daikiri-smorodina",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Дайкири имбирно-яблочный",
+              "description": "",
+              "weight": "160мл",
+              "price": "400",
+              "id": "daikiri-apple",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Мохито",
+              "description": "Мохито традиционно состоить из 5 ингридиентов: ром, содовая, сахар, мята и лайм. Любимый напиток Эрнеста Хемингуэя и Фиделя Кастро, уже по этим двум известным именам можно догадаться, что родина этого коктейля Куба. На ней он родился, там был очень популярен, ну а потом распространился по всему миру. ",
+              "weight": "380мл",
+              "price": "350",
+              "id": "Margarita",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Зеленая фея",
+              "description": "Если ваша фея-крестная куда-то подевалась, например, решила обустроить личную жизнь и в срочном порядке укатила на Карибы, не переживайте, коктейль, который Вы сегодня попробуете станет ей равноценной заменой. ",
+              "weight": "380мл",
+              "price": "500",
+              "id": "green-fey",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Пина Колада",
+              "description": "Официальный напиток Пуэрто-Рико. Пожалуй, самый женственный и нежный слабоалкогольный карибский коктейль, состоящий из рома, ананасового сока, сливок, и подается в настоящем кокосе.",
+              "weight": "350мл",
+              "price": "320",
+              "id": "pina-colada",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Лонг Айленд",
+              "description": "Дерзкий, крепкий, коктейль - любимец клубной публики и молодежи. Лонг Айленд Айс Ти уникальный алкогольный коктейль, в составе которого гармонично сочетаются пять видов спиртного: джин, водка, ром, текила, апельсиновый ликер. Появился в годы сухого закона и подавался замаскированный под холодный лимонный чай.  Пьянит мягко, но сильно.",
+              "weight": "400мл",
+              "price": "500",
+              "id": "long-island",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Ночь нежна",
+              "description": "Названный в честь романа американского классика Фицджеральда, этот коктейль перенесет Вас на Лазурные берега Франции, заставит вспоснить насколько прекрасна эта странная жизнь.",
+              "weight": "120мл",
+              "price": "350",
+              "id": "pina-colada",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Грог в термосе",
+              "description": "Согревающий пряный грог на основе свежих фруктов, белого рома и крепкого черного чая. Невероятно полезный, особенно в холодные дни. Благодаря подаче в термосе, напиток долго останется горячим.",
+              "weight": "1000мл",
+              "price": "800",
+              "id": "grog",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Мунлайт",
+              "description": "Вкуснейший холодный кофейный коктейль с коньяком, специями и апельсиновым ликером.",
+              "weight": "130мл",
+              "price": "340",
+              "id": "moonlight",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Вишневое пиво",
+              "description": "Медово-карамельный запах темного пива в удивительном балансе с нотами свежей вишни и специй. Очень вкусный напиток.",
+              "weight": "180мл",
+              "price": "250",
+              "id": "cherry-beer",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Хелп эспрессо",
+              "description": "Сливочный алкогольный коктейль на основе холодного кофе - настоящая находка для гурманов",
+              "weight": "130мл",
+              "price": "350",
+              "id": "help-espresso",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Транссибирская магистраль",
+              "description": "Травы, специи, облепиха, имбирь и белый ром - идеальное сочетание в горячем коктейле.",
+              "weight": "200мл",
+              "price": "300",
+              "id": "transsib-highway",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Глинтвейн классический",
+              "description": "Классический горячий напиток на основе красного вина. Ничего лишнего.",
+              "weight": "200мл",
+              "price": "350",
+              "id": "glintwine",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Карловарская осень",
+              "description": "Горячий авторский алкогольный коктейль, которого Вы точно еще не пробовали, но обязательно захотите еще.",
+              "weight": "180мл",
+              "price": "300",
+              "id": "carls-autumn",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Московская лихорадка",
+              "description": "Вариация горячего алкогольного чая - грога, на этот раз с облепихой, джином и пряностями. ",
+              "weight": "200мл",
+              "price": "300",
+              "id": "moscow-insane",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Глинтвейн в термосе",
+              "description": "Глинтвейна много не бывает! особенно в холодные времена года. А чтобы он не остыл, бармен подаст напиток в термосе, что позволит Вам наслаждаться свежим терпким вкусом гораздо дольше.",
+              "weight": "1000мл",
+              "price": "1000",
+              "id": "glintwine-big",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Пунш в кувшине",
+              "description": "Разновидность холодного пунша, на основе джина,  свежей клубники и лайма. Свежий и сочный, он мягко пьянит, а благодаря большому объему прекрасно подойдет большой компании.",
+              "weight": "1000мл",
+              "price": "900",
+              "id": "punsh",
+              "recommend": ["1"],
+              "image": "/static/images/alco.jpg"
+            },
+            {
+              "name": "Авалокитешвара",
+              "description": "Необычный, как и его название, коктейль раскрывается тропическим вкусом личи в сочетании с сочным апельсином. Однозначно пробовать!",
+              "weight": "300мл",
+              "price": "400",
+              "id": "avalokiteshvra",
               "recommend": ["1"],
               "image": "/static/images/alco.jpg"
             }
@@ -227,63 +867,1464 @@
         },
 
         {
-          "name": "Безалкоголь",
-          "id": "nonalcohol",
+          "name": "Шот бар",
+          "id": "shot-bar",
           "image": "/static/images/kitchen.jpg",
           "products": [
             {
-              "name": "Молочный коктейль",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "412",
-              "recommend": ["8", "7", "6", "14"],
+              "name": "Д.Х.Е.З.",
+              "description": "То, что Вы точно никогда еще не пробовали, но если решитесь, то запомните этот вечер о-очень надолго.",
+              "weight": "210г",
+              "price": "500",
+              "id": "dhez",
+              "recommend": ["8"],
               "image": "/static/images/cappu.jpg"
             },
             {
-              "name": "Вода",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "413",
-              "recommend": ["8", "7", "6", "14"],
+              "name": "Б-52",
+              "description": "Классика коротких коктейлей, знакомый всем Б-52! С приятным сладковатым вкусом, состоящий из трех слоев ликеров - кофейного, сливочного и апельсинового, которые наливаются в равных пропорциях",
+              "weight": "50г",
+              "price": "300",
+              "id": "b52",
+              "recommend": ["8"],
               "image": "/static/images/cappu.jpg"
             },
             {
-              "name": "Чай",
-              "description": "Описание продукта",
-              "weight": "200г",
+              "name": "Имбирь - джин шот",
+              "description": "Для любителей острых ощущений и необычного вкуса.",
+              "weight": "50г",
+              "price": "220",
+              "id": "gingerjean-shot",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Растафарай",
+              "description": "«Рэгги, рэгги – растаманский джаз, мы любим Джа, а Джа любит нас»",
+              "weight": "60г",
+              "price": "250",
+              "id": "rastafarai",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Байконур шот",
+              "description": "Как когда-то сказал Гагарин - Поехали!",
+              "weight": "60г",
+              "price": "250",
+              "id": "baikonur-shot",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Мексиканский космонавт",
+              "description": "Коктейль Мексиканский Космонавт основан на отличном союзе Текилы и мятного сиропа и лимонного сока. Это топливо может помочь достигнуть максимальной точки высоты. Итак, пьем коктейль и….ПОЕХАЛИ! Километры от земли. Полет отличный!",
+              "weight": "50г",
+              "price": "270",
+              "id": "mexican-cosmanaut",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Унесенные ветром",
+              "description": "Судя по отзывам людей, попробовавших коктейль Унесенные ветром, он оправдывает название. Во-первых, данный коктейль изумительно красив и романтичен на вид: пламенно горящий апельсиновый ликер, покрывающий кофейный Калуа в сочетании с ярким ликером голубой Кюрасау и с нежными белыми сливками будоражит сознание и возбуждает желание попробовать «Унесенные ветром». Во-вторых, он действительно может «унести», так как является достаточно крепким.",
+              "weight": "120г",
               "price": "400",
-              "id": "414",
-              "recommend": ["8", "7", "6", "14"],
+              "id": "unesennie-vetrom",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Текила бум",
+              "description": "«Текила бум» — просто сногсшибательный коктейль! Люди, которые его заказывают, однозначно любят пошуметь, к тому же они не лишены чувства риска, ведь всего от нескольких таких шипучих стаканчиков можно реально упасть с ног. Готовы рискнуть?",
+              "weight": "150г",
+              "price": "400",
+              "id": "tekilla-boom",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Боярский",
+              "description": "Как пить: 1. крикнуть бармену «Боярского!» 2. получить рюмку и произнести тост: «За мушкетеров Короля!» 3. Выпить (хлопнуть) 4. ударить по барной стойке и крикнуть: «Тысяча чертей!»",
+              " weight": "50г",
+              "price": "200",
+              "id": "boyarski",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Шот Облака",
+              "description": "Коктейль с таким названием может быть только романтическим. Только Облака способны создать волшебство или позволить ему произойти.",
+              "weight": "50г",
+              "price": "200",
+              "id": "clouds-shot",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Кровавая маленькая Машка",
+              "description": "",
+              "weight": "50г",
+              "price": "280",
+              "id": "little-masha",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Твою мать",
+              "description": "Если кажется, что пить больше невозможно, махни рукой и выпей этот бодрящий коктейль! Поднимет мертвого, расшевелит уставшего. Пить залпом!!",
+              "weight": "140г",
+              "price": "400",
+              "id": "tvoiu-mat",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Алло-Ne-Алло",
+              "description": "Шот для тех кто не понимает, что происходит, но очень хочет не отставать от коллектива",
+              "weight": "50г",
+              "price": "350",
+              "id": "allo",
+              "recommend": ["8"],
+              "image": "/static/images/cappu.jpg"
+            }
+          ]
+        },
+
+        {
+          "name": "Кофе",
+          "id": "coffee",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Эспрессо",
+              "description": "Эспрессо − маленькая чашечка крепкого черного кофе. На его основе создаются все остальные кофейные напитки, и именно от его качества зависит, каким будет качество этих напитков. Основу вкуса эспрессо составляет приятный баланс кислинки и горчинки. Определяющим является ощущение свежести и законченности вкуса.",
+              "weight": "30мл",
+              "price": "80",
+              "id": "espresso",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Эспрессо-допио",
+              "description": "Кофе эспрессо, приготовленный на двойном количестве молотого кофе и объемом в два раза больше стандартной порции эспрессо. Характеризуется интенсивным вкусом и ароматом",
+              "weight": "60мл",
+              "price": "140",
+              "id": "doppio",
+              "recommend": [],
               "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Американо",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "415",
-              "recommend": ["8", "7", "6", "14"],
+              "description": "Одна часть эспрессо и три части кипятка - рецепт идеального американо. Напиток получается некрепкий, но прекрасно передает всю прелесть кофейного вкуса и аромата.",
+              "weight": "120мл",
+              "price": "120",
+              "id": "Americano",
+              "recommend": [],
               "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Капучино",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "416",
-              "recommend": ["8", "7", "6", "14"],
+              "description": "Капучино, которое так высоко ценят в солнечной и гостеприимной Италии, по праву является одним из пяти самых любимых и популярных напитков во всем мире. Попробуйте также с корицей, сиропом или сливочным ликером.",
+              "weight": "180мл",
+              "price": "140",
+              "id": "Cappucino",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Гляссе",
+              "description": "Классическое сочетание - горячий терпкий эспрессо и сливочное мороженое под шапкой из взбитых сливок.",
+              "weight": "180мл",
+              "price": "200",
+              "id": "glasse",
+              "recommend": [],
               "image": "/static/images/cappu.jpg"
             },
             {
               "name": "Латте",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "417",
+              "description": "Молочная пенка сверху, крепкий эспрессо посередине, а смешав с сиропом можно добиться самых удивительных сочетаний! Попробуйте латте с карамелью, орехом, имбирным пряником и даже клубникой. Можно сочетать с алкгольными ликерами.",
+              "weight": "180мл",
+              "price": "200",
+              "id": "latte",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Кофе по-венски",
+              "description": "Ароматный, бодрящий кофе в облаке сливок - прекрасное начало дня!",
+              "weight": "180мл",
+              "price": "180",
+              "id": "latte",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Горячий шоколад",
+              "description": "Невероятно густой и на  сыщенный настоящий горячий шоколад. Идеально сочетается со взбитыми сливками и покорит всех сладкоежек.",
+              "weight": "90мл",
+              "price": "220",
+              "id": "hot-chocolate",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Вкусный какао",
+              "description": "Вкус из детства. Приготовлен из настоящего шоколада.",
+              "weight": "180мл",
+              "price": "220",
+              "id": "cacao",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Шмель",
+              "description": "Задорный шмель - кофе с апельсиновым соком, освежающий и необычный.",
+              "weight": "350мл",
+              "price": "200",
+              "id": "shmel",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Эспрессо корретто",
+              "description": "В переводе с итальянского «коретто» — «приправленный». Кофе состоит из порции эспрессо, приправленного самбукой и украшенного звездочкой аниса.",
+              "weight": "35мл",
+              "price": "200",
+              "id": "espresso-correto",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Зимний-зимний",
+              "description": "Самый Рождественнский, самый теплый и самый зимний. С запахом имбирного пряника и тимьяна, в любой момент вернет Вас в уютное детство.",
+              "weight": "180мл",
+              "price": "230",
+              "id": "winter",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Ореховый каппучино",
+              "description": "Нежная молочная пенка этого капучино взбита с ароматным ореховым сиропом и посыпана кусочками грецкого ореха.",
+              "weight": "180мл",
+              "price": "180",
+              "id": "hazelnut-cappu",
+              "recommend": [],
+              "image": "/static/images/cappu.jpg"
+            }
+          ]
+        },
+
+        {
+          "name": "Пиво",
+          "id": "beer",
+          "image": "/static/images/kitchen.jpg",
+          "products": [
+            {
+              "name": "Пиво светлое 0.5",
+              "description": "Фирменное пиво лучших ростовских пивоваров. Светлое - с ярким вкусом солода, аппетитным ароматом хмеля и легкой горчинкой в послевкусии.",
+              "weight": "500мл",
+              "price": "160",
+              "id": "light-beer",
               "recommend": ["8", "7", "6", "14"],
               "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Пиво светлое 0.33",
+              "description": "Фирменное пиво лучших ростовских пивоваров. Светлое - с ярким вкусом солода, аппетитным ароматом хмеля и легкой горчинкой в послевкусии.",
+              "weight": "330мл",
+              "price": "120",
+              "id": "beer-light-small",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Пиво темное 0.5",
+              "description": "Фирменное пиво лучших ростовских пивоваров. Сладковатый запах меда и карамели в сочетании с насыщенным вкусом жженного солода и легкой горчинкой в конце.",
+              "weight": "500мл",
+              "price": "160",
+              "id": "dark-beer",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Пиво темное 0.33",
+              "description": "Фирменное пиво лучших ростовских пивоваров. Сладковатый запах меда и карамели в сочетании с насыщенным вкусом жженного солода и легкой горчинкой в конце.",
+              "weight": "330мл",
+              "price": "120",
+              "id": "dark-beer-small",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Ягер-бомба",
+              "description": "Неважно какую цель Вы преследуете, употребляя алкоголь. Важно, что этот коктейль поможет быстро и вкусно ее достичь.",
+              "weight": "500мл",
+              "price": "450",
+              "id": "jager-bomb",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Стелла Артуа б/а 0.5",
+              "description": "Мягкое безалкогольное пиво с прятной горечью и ярким ароматом.",
+              "weight": "500мл",
+              "price": "180",
+              "id": "stlla-alcofree",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            },
+            {
+              "name": "Эль Бандито",
+              "description": "Шоколадная текила и темное пиво. Идеальная пара. Смешать? Выпить по очереди? Результат все равно превзойдет ожидание.",
+              "weight": "380мл",
+              "price": "500",
+              "id": "Ale-bandito",
+              "recommend": ["8", "7", "6", "14"],
+              "image": "/static/images/cappu.jpg"
+            }
+          ]
+        },
+
+        {
+          "name": "Безалкогольные коктейли",
+          "image": "/static/images/kitchen.jpg",
+          "id": "noalco-coctails",
+          "products": [
+            {
+              "name": "Индеец из Сан Хуана",
+              "description": "Яркий и сочный! Терпкий и сладкий! Прекрасно утолит жажду в любое время года.",
+              "weight": "350мл",
+              "price": "150",
+              "id": "san-huana",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Дайте два!",
+              "description": "Напиток, который хочется заказать еще и еще!",
+              "weight": "350мл",
+              "price": "150",
+              "id": "give-two",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Вкусно",
+              "description": "Легкий, но насыщенный сладкий коктейль - аналог молочного, но с более фруктовыми оттенками.",
+              "weight": "350мл",
+              "price": "150",
+              "id": "tasty",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Лимонад домашний",
+              "description": "Классический цитрусовы лимонад с ярким освежающим вкусом, приготовленный на основе свежих фруктов и содовой.",
+              "weight": "350мл",
+              "price": "180",
+              "id": "lemonade",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Глинтвейн безалкогольный",
+              "description": "Классический горячий напиток на основе красного вина. Ничего лишнего.",
+              "weight": "180мл",
+              "price": "180",
+              "id": "noalco-glintwine",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Лимонад имбирный",
+              "description": "Вариация лимонада для любителей остренького. Невероятно освежает и очень полезен для здоровья.",
+              "weight": "380мл",
+              "price": "220",
+              "id": "ginger-lemo",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Лимонад облепиховый",
+              "description": "Домашний лимонад на основе свежих фруктов с добавлений настоящего облепихового пюре.",
+              "weight": "380мл",
+              "price": "220",
+              "id": "obli-lemo",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мохито безалкогольный",
+              "description": "Лайт-версия популярного коктейля без добавления рома, но не менее вкусного и освежающего.",
+              "weight": "380мл",
+              "price": "250",
+              "id": "mojito-noalco",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Безалкогольные напитки",
+          "image": "/static/images/kitchen.jpg",
+          "id": "drinks",
+          "products": [
+            {
+              "name": "Бон Аква газ. 0,33",
+              "description": "",
+              "weight": "330мл",
+              "price": "120",
+              "id": "bon-aqua-gaz",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бон Аква н/газ. 0,33",
+              "description": "",
+              "weight": "330мл",
+              "price": "120",
+              "id": "bon-aqua",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Кока-кола 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "100",
+              "id": "coca-colla",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Швепс 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "120",
+              "id": "shweppes",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Спрайт 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "100",
+              "id": "sprite",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Фанта 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "100",
+              "id": "fanta",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ред Булл 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "150",
+              "id": "red-bull",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Сок в ассортименте 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "150",
+              "id": "juice-small",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Сок в ассортименте 1 литр",
+              "description": "",
+              "weight": "1000мл",
+              "price": "320",
+              "id": "juice-big",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Фреш апельсин 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "210",
+              "id": "orange-fresh",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Фреш грейпфрут 0,25",
+              "description": "",
+              "weight": "250мл",
+              "price": "210",
+              "id": "grape-fresh",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Бренди",
+          "image": "/static/images/kitchen.jpg",
+          "id": "brandi",
+          "products": [
+            {
+              "name": "Ани 6 лет 0,05",
+              "description": "Прекрасный ординарный коньяк Арарат Ани шестилетней выдержки. Имеет янтарный цвет с шоколадным отблеском. В аромате присутствует яркая пряная свежесть. Вкус интенсивный и длительный, выраженная сладость делает его более округлым. В терпком послевкусии определяются тона лимона и инжира.",
+              "weight": "50мл",
+              "price": "300",
+              "id": "ani-6years",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ани 6 лет 0,5",
+              "description": "Прекрасный ординарный коньяк Арарат Ани шестилетней выдержки. Имеет янтарный цвет с шоколадным отблеском. В аромате присутствует яркая пряная свежесть. Вкус интенсивный и длительный, выраженная сладость делает его более округлым. В терпком послевкусии определяются тона лимона и инжира.",
+              "weight": "500мл",
+              "price": "2850",
+              "id": "ani-6years-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Арарат 5 лет 0,05",
+              "description": "Коньяки Арарат, которые производит Ереванский Коньячный Завод — это национальная легенда, воплощающая уникальный дух Армении, ее богатое культурное и историческое наследие, а также знаменитое мастерство армянских мастеров. Мы предлагаем Вам коньяк пятилетней выдержки с интенсивными тонами черной смородины и мягкими сладковатыми нотами.",
+              "weight": "50мл",
+              "price": "220",
+              "id": "ararat-50",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Арарат 5 лет 0,5",
+              "description": "Коньяки Арарат, которые производит Ереванский Коньячный Завод — это национальная легенда, воплощающая уникальный дух Армении, ее богатое культурное и историческое наследие, а также знаменитое мастерство армянских мастеров. Мы предлагаем Вам коньяк пятилетней выдержки с интенсивными тонами черной смородины и мягкими сладковатыми нотами.",
+              "weight": "500мл",
+              "price": "2100",
+              "id": "ararat-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Сан Реми ВСОП 0,05",
+              "description": "Интересный французский бренди с привлекательным сложным вкусом и неповторимым тонким ароматом. Напиток создается из чистых виноградных спиртов, специально подготовленной воды, сахарного сиропа и карамели.",
+              "weight": "50мл",
+              "price": "260",
+              "id": "san-remi",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Сан Реми ВСОП 0,05",
+              "description": "Интересный французский бренди с привлекательным сложным вкусом и неповторимым тонким ароматом. Напиток создается из чистых виноградных спиртов, специально подготовленной воды, сахарного сиропа и карамели.",
+              "weight": "500мл",
+              "price": "2500",
+              "id": "san-remi-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Бурбон",
+          "image": "/static/images/kitchen.jpg",
+          "id": "burbon",
+          "products": [
+            {
+              "name": "Джим Бим 0,05",
+              "description": "Бурбон Jim Beam — настоящая легенда американского виски. Для присущ легкий аромат, в котором распознаются пряности и цветы, а вкус впечатляет древесным оттенком. Послевкусие от этого виски мягкое и приятное.",
+              "weight": "50мл",
+              "price": "280",
+              "id": "djim-beam",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джим Бим 0,7",
+              "description": "Бурбон Jim Beam — настоящая легенда американского виски. Для присущ легкий аромат, в котором распознаются пряности и цветы, а вкус впечатляет древесным оттенком. Послевкусие от этого виски мягкое и приятное.",
+              "weight": "700мл",
+              "price": "3800",
+              "id": "djim-beam-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джим Бим Рэд Стаг 0,05",
+              "description": "Дерзкий и яркий, неординарный напиток, выпускаемый лимитированным тиражом, в котором мягкие и теплые вишневые оттенки прекрасно ложатся на крепость выдержанного в дубовых бочках бурбона. Разносторонний, гладкий, сбалансированный вкус бурбона наполнен сладкими нотами кукурузы и темной вишни, мягкими оттенками дуба. Послевкусие шелковистое, теплое, согревающее.",
+              "weight": "50мл",
+              "price": "300",
+              "id": "red-stag",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джим Бим Рэд Стаг 0,07",
+              "description": "Дерзкий и яркий, неординарный напиток, выпускаемый лимитированным тиражом, в котором мягкие и теплые вишневые оттенки прекрасно ложатся на крепость выдержанного в дубовых бочках бурбона. Разносторонний, гладкий, сбалансированный вкус бурбона наполнен сладкими нотами кукурузы и темной вишни, мягкими оттенками дуба. Послевкусие шелковистое, теплое, согревающее.",
+              "weight": "700мл",
+              "price": "4050",
+              "id": "red-stag-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джим Бим Эпл 0,05",
+              "description": "Джим Бим Эпл состоит из традиционного бурбона смешанного с экстрактом сока зеленых яблок. Мастера  винокурни Джим Бим искусно соединили хрустящую свежесть зеленых яблок с богатым бурбоном из Кентукки, добившись совершенного баланса сочности и глубины. Можно пить со льдом или попробовать в миксе коктейлей.",
+              "weight": "50мл",
+              "price": "300",
+              "id": "jim-beam-apple",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джим Бим Эпл 0,7",
+              "description": "Джим Бим Эпл состоит из традиционного бурбона смешанного с экстрактом сока зеленых яблок. Мастера  винокурни Джим Бим искусно соединили хрустящую свежесть зеленых яблок с богатым бурбоном из Кентукки, добившись совершенного баланса сочности и глубины. Можно пить со льдом или попробовать в миксе коктейлей.",
+              "weight": "700мл",
+              "price": "4050",
+              "id": "jim-beam-apple-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Вермуты",
+          "image": "/static/images/kitchen.jpg",
+          "id": "vermuts",
+          "products": [
+            {
+              "name": "Мартини Бьянко 0,05",
+              "description": "Самый ароматный из всех мартини, лёгкий и сладкий, с чуть заметной горчинкой. В букете напитка, который сейчас производится на основе итальянского белого сухого вина, хорошо чувствуется ваниль, и совсем чуть-чуть – терпкий вкус трав.",
+              "weight": "50мл",
+              "price": "120",
+              "id": "martini-bjanko",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартини Бьянко 1 литр",
+              "description": "Самый ароматный из всех мартини, лёгкий и сладкий, с чуть заметной горчинкой. В букете напитка, который сейчас производится на основе итальянского белого сухого вина, хорошо чувствуется ваниль, и совсем чуть-чуть – терпкий вкус трав.",
+              "weight": "1000мл",
+              "price": "2200",
+              "id": "martini-bjanko-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартини Россо 0,05",
+              "description": "Сладкий и немного горьковатый вкус и насыщенный аромат с оттенком чая. Своими качествами он обязан хорошему сочетанию итальянских вин и отобранных трав. Традиционная карамель придает этому вермуту тёмно-янтарный цвет.",
+              "weight": "50мл",
+              "price": "120",
+              "id": "martini-rosso",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартини Россо 1 литр",
+              "description": "Сладкий и немного горьковатый вкус и насыщенный аромат с оттенком чая. Своими качествами он обязан хорошему сочетанию итальянских вин и отобранных трав. Традиционная карамель придает этому вермуту тёмно-янтарный цвет.",
+              "weight": "1000мл",
+              "price": "2200",
+              "id": "martini-rosso-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартини Экстра Драй 0,05",
+              "description": "В этом сухом вермуте сильно ощущается лимон, малина, немного слабее – ирис. Вкус не горький, хотя алкоголя несколько больше, а сахара присутствует существенно меньше, чем обычно в таких напитках.",
+              "weight": "50мл",
+              "price": "120",
+              "id": "martini-extradry",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартини Экстра Драй 1 литр",
+              "description": "В этом сухом вермуте сильно ощущается лимон, малина, немного слабее – ирис. Вкус не горький, хотя алкоголя несколько больше, а сахара присутствует существенно меньше, чем обычно в таких напитках.",
+              "weight": "1000мл",
+              "price": "2200",
+              "id": "martini-extradry-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Вина Австралии",
+          "image": "/static/images/kitchen.jpg",
+          "id": "australian-wine",
+          "products": [
+            {
+              "name": "Джейкоб С Крик Шардоне белое полусухое 0,75",
+              "description": "Jacobs Creek - самые популярные австралийски вина в мире. Белое сухое вино Jacob's Creek Chardonnay  демонстрирует классические сортовые характеристики винограда, раскрываясь мягким, округлым вкусом с нотками дыни и яблока и утонченным фруктовым букетом.",
+              "weight": "750мл",
+              "price": "1500",
+              "id": "jacob-creek",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джейкоб С Крик Шираз Каберне красное сухое 0,75",
+              "description": "Это оригинальный купаж из винограда сортов Шираз и Каберне Совиньон. Это среднетелое вино обладает ароматом черники и сливы с нотками перца и дуба, и мягкими танинами.",
+              "weight": "750мл",
+              "price": "1500",
+              "id": "jacob-creek-caberne",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Вина Испании",
+          "image": "/static/images/kitchen.jpg",
+          "id": "spaish-wine",
+          "products": [
+            {
+              "name": "DOC Сансегре Бланко сухое белое 0,75",
+              "description": "Произведено из винограда сорта Макабео, выращенного в одном из лучших регионов Испании - Риоха. Прекрасное вино с интенсивным ароматом зеленых яблок и цитрусовых, свежий, элегантный вкус и длительное послевкусие.",
+              "weight": "750мл",
+              "price": "1500",
+              "id": "sanserge-blanko",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "DOC Сансегре Тинто сухое красное 0,75",
+              "description": "Произведено из винограда сорта Темпранильо, выращенного в одном из лучших регионов Испании - Риоха. В аромате этого вина, темно-вишневого цвета, фрукты с нотками малины. Бархатистое, округлое вино с приятным вишнёвым послевкусием.",
+              "weight": "750мл",
+              "price": "1500",
+              "id": "sanserge-tinto",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Феста ла Виста в ассортименте 0,125",
+              "description": "Испанское столовое вино представлено в 4 видах:красное и белое сухое, а также красное и белое полусладкое.Вобрав в себя всю силу солнца жаркой Испании, это вино скрасит Ваш ужин и подойдет к множеству блюд.",
+              "weight": "125мл",
+              "price": "200",
+              "id": "festa-la-vista",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Феста ла Виста в ассортименте 0,75",
+              "description": "Испанское столовое вино представлено в 4 видах:красное и белое сухое, а также красное и белое полусладкое.Вобрав в себя всю силу солнца жаркой Испании, это вино скрасит Ваш ужин и подойдет к множеству блюд.",
+              "weight": "750мл",
+              "price": "1200",
+              "id": "festa-la-vista-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Вина Италии",
+          "image": "/static/images/kitchen.jpg",
+          "id": "italian-wine",
+          "products": [
+            {
+              "name": "Бокантино Монтепульчано сухое красное 0,75",
+              "description": "Это насыщенное, плотное вино с хорошо сбалансированными танинами максимально раскрывается и демонстрирует свои лучшие качества в сочетании с жареным мясом или блюдами из красного мяса на гриле. Обладает глубоким рубиново-красным цветом с фиолетовыми бликами и интенсивным, устойчивым фруктовым ароматом.",
+              "weight": "750мл",
+              "price": "1800",
+              "id": "bokantino-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Портобелло Пино Гриджио сухое белое 0,75",
+              "description": "Для настоящих нителей итальянского белого! Вино бледно-соломенного цвета с зелеными тонами. Обладает утонченным ароматом зеленых трав и цитрусовых. Вкус ровный с нотками зеленого яблока и грейпфрута со свежим послевкусием.",
+              "weight": "750мл",
+              "price": "1800",
+              "id": "portobello-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Вина Франции",
+          "image": "/static/images/kitchen.jpg",
+          "id": "french-wine",
+          "products": [
+            {
+              "name": "Ле Коломбьер в ассортименте 0,125",
+              "description": "Производимое в знаменитом регионе Бордо во Франции, это вино подарит Вам вкус изысканности и уникальности.В нашем Меню представлено как в сухих, так и в полусладких коллекциях.",
+              "weight": "125мл",
+              "price": "250",
+              "id": "la-colomber",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ле Коломбьер в ассортименте 0,125",
+              "description": "Производимое в знаменитом регионе Бордо во Франции, это вино подарит Вам вкус изысканности и уникальности.В нашем Меню представлено как в сухих, так и в полусладких коллекциях.",
+              "weight": "750мл",
+              "price": "1500",
+              "id": "la-colomber-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Малезан Мерло сухое красное 0,75",
+              "description": "Красное сухое вино обладает ароматом вишни, сливы, какао. Нежное, ровное, гармоничное. Сама Франция плещется в Вашем бокале!",
+              "weight": "750мл",
+              "price": "2000",
+              "id": "melzan-merlo",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Малезан Шардоне сухое белое 0,75",
+              "description": "Вино обладает цветочным ароматом. Сбалансированное, средней кислотности, плотное, вкус - с оттенками зеленых плодов (яблоки, персик, крыжовник). Освежающее, бодрящее, отлично подойдет к рыбе и овощным салатам.",
+              "weight": "750мл",
+              "price": "2000",
+              "id": "melzan-shardane",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Чилийские Вина",
+          "image": "/static/images/kitchen.jpg",
+          "id": "french-wine",
+          "products": [
+            {
+              "name": "Пасифико Сур Карменер сухое красное 0,75",
+              "description": "Вино имеет глубокий цвет спелой сливы с бликами синего. Обладает комбинацией сложных ароматов из красных и черных ягод (вишня, клубника, спелая черешня, слива, смородина). Это полнотелое вино, с хорошо сбалансированной кислотностью.",
+              "weight": "750мл",
+              "price": "1800",
+              "id": "pacifico-sur-karmener",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Пасифико Сур Совиньон Блан сухое белое 0,75",
+              "description": "Изысканное вино ярко-желтого цвета с зеленоватыми бликами. Обладает роскошным цитрусово-цветочным ароматом и освежающим мягким вкусом, переходящим в цитрусовое послевкусие.",
+              "weight": "750мл",
+              "price": "1800",
+              "id": "pacifico-sur-karmener",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Домашние Вина",
+          "image": "/static/images/kitchen.jpg",
+          "id": "house-wine",
+          "products": [
+            {
+              "name": "Вино хаус Гай-Кодзор 0,125",
+              "description": "Вино имеет глубокий цвет спелой сливы с бликами синего. Обладает комбинацией сложных ароматов из красных и черных ягод (вишня, клубника, спелая черешня, слива, смородина). Это полнотелое вино, с хорошо сбалансированной кислотностью.",
+              "weight": "125мл",
+              "price": "160",
+              "id": "house-gai",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Виски",
+          "image": "/static/images/kitchen.jpg",
+          "id": "house-wine",
+          "products": [
+            {
+              "name": "Балантайнс 0,05",
+              "description": "Виски имеет утонченный, нежный, округлый вкус с прекрасным балансом, оттенками ванили, красных яблок и молочного шоколада. Длительное, теплое послевкусие придает букету завершенность.",
+              "weight": "125мл",
+              "price": "160",
+              "id": "balantains",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Балантайнс 0,7",
+              "description": "Виски имеет утонченный, нежный, округлый вкус с прекрасным балансом, оттенками ванили, красных яблок и молочного шоколада. Длительное, теплое послевкусие придает букету завершенность.",
+              "weight": "700мл",
+              "price": "3400",
+              "id": "balantains-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джек Дениэлс 0,05",
+              "description": "Джек Дэниэлс (англ. Jack Daniel's) это бренд виски, который является одним из бестселлеров в мире алкогольных напитков.Особенный мягкий вкус и аромат этому виски придает чистейшая родниковая вода, уникальный способ фильтрации, через трехметровый слой прессованного угля из сахарного клена и конечно, выдержка в бочках из американского дуба.",
+              "weight": "50мл",
+              "price": "320",
+              "id": "jack-daniels",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джек Дениэлс 0,7",
+              "description": "Джек Дэниэлс (англ. Jack Daniel's) это бренд виски, который является одним из бестселлеров в мире алкогольных напитков.Особенный мягкий вкус и аромат этому виски придает чистейшая родниковая вода, уникальный способ фильтрации, через трехметровый слой прессованного угля из сахарного клена и конечно, выдержка в бочках из американского дуба.",
+              "weight": "700мл",
+              "price": "4400",
+              "id": "jack-daniels-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джемисон 0,05",
+              "description": "Ирландский виски Jameson является самым популярным алкогольным напитком Ирландии, в которой он разливается и выдерживается более двухсот лет. Имеет классический вкус ирландского виски, и производители отмечают, что он неотличим от того напитка, который изготавливался на заводе Джона Джемесона еще в 18 веке.",
+              "weight": "50мл",
+              "price": "290",
+              "id": "jameson",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Джемисон 0,7",
+              "description": "Ирландский виски Jameson является самым популярным алкогольным напитком Ирландии, в которой он разливается и выдерживается более двухсот лет. Имеет классический вкус ирландского виски, и производители отмечают, что он неотличим от того напитка, который изготавливался на заводе Джона Джемесона еще в 18 веке.",
+              "weight": "700мл",
+              "price": "3950",
+              "id": "jameson-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Макаллан 12 лет 0,05",
+              "description": "Macallan — старейший элитный шотландский односолодовый виски. Отличительной особенностью продукции линии Fine Oak является созревание в бочках трех видов. Хересные бочки из европейского дуба придают виски богатый аромат с нотками сухих фруктов, специй и шоколада. Хересные бочки из американского дуба добавляют тона лимона, кокоса и ириса, а дубовые бочки из-под бурбона — аромат цветов и сладкие нотки ванили и свежих фруктов. Виски Macallan — непременный атрибут роскоши и стиля.",
+              "weight": "50мл",
+              "price": "520",
+              "id": "maccalan",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Макаллан 12 лет 0,7",
+              "description": "Macallan — старейший элитный шотландский односолодовый виски. Отличительной особенностью продукции линии Fine Oak является созревание в бочках трех видов. Хересные бочки из европейского дуба придают виски богатый аромат с нотками сухих фруктов, специй и шоколада. Хересные бочки из американского дуба добавляют тона лимона, кокоса и ириса, а дубовые бочки из-под бурбона — аромат цветов и сладкие нотки ванили и свежих фруктов. Виски Macallan — непременный атрибут роскоши и стиля.",
+              "weight": "700мл",
+              "price": "7100",
+              "id": "maccalan-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Чивас Регал 12 лет 0,05",
+              "description": "Лидер среди шотландских купажированных виски премиум класса. Виски имеет округлый, сливочный, насыщенный вкус тонами спелых, медовых яблок, ванили, орехов и ирисок. Богатое, продолжительное послевкусие. Ароматный виски с нотками диких трав, вереска, меда и садовых фруктов.",
+              "weight": "50мл",
+              "price": "410",
+              "id": "chiwas-regal-12",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Чивас Регал 12 лет 0,7",
+              "description": "Лидер среди шотландских купажированных виски премиум класса. Виски имеет округлый, сливочный, насыщенный вкус тонами спелых, медовых яблок, ванили, орехов и ирисок. Богатое, продолжительное послевкусие. Ароматный виски с нотками диких трав, вереска, меда и садовых фруктов.",
+              "weight": "700мл",
+              "price": "5500",
+              "id": "chiwas-regal-12-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Водка",
+          "image": "/static/images/kitchen.jpg",
+          "id": "vodka",
+          "products": [
+            {
+              "name": "Абсолют 0,05",
+              "description": "Собирая самые лучшие отзывы, водка Абсолют является одной из самых популярных и качественных водок по всему миру. Славится отстутвием похмелья и чистейшим вкусом.",
+              "weight": "50мл",
+              "price": "180",
+              "id": "absolute",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Абсолют 0,5",
+              "description": "Собирая самые лучшие отзывы, водка Абсолют является одной из самых популярных и качественных водок по всему миру. Славится отстутвием похмелья и чистейшим вкусом.",
+              "weight": "500мл",
+              "price": "1740",
+              "id": "absolute-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Беленькая 0,05",
+              "description": "Благодаря натуральному настою овсяных хлопьев, а также тщательной фильтрации сквозь 13 метров угольного фильтра, «Беленькая Люкс» имеет сбалансированный вкус и обладает тонким, чисто водочным ароматом.",
+              "weight": "50мл",
+              "price": "100",
+              "id": "belenkaya",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Беленькая 0,5",
+              "description": "Джек Дэниэлс (англ. Jack Daniel's) это бренд виски, который является одним из бестселлеров в мире алкогольных напитков.Особенный мягкий вкус и аромат этому виски придает чистейшая родниковая вода, уникальный способ фильтрации, через трехметровый слой прессованного угля из сахарного клена и конечно, выдержка в бочках из американского дуба.",
+              "weight": "500мл",
+              "price": "900",
+              "id": "belenkaya-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Финляндия 0,05",
+              "description": "Финляндия — признанная во всем мире марка водки высокого класса. Ее ценят за мягкий вкус и ненавязчивый аромат, полученный благодаря использованию натурального сырья и 200 ступенчатой системе очистки и фильтрации.",
+              "weight": "50мл",
+              "price": "170",
+              "id": "finlandia",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Финляндия 0,5",
+              "description": "Финляндия — признанная во всем мире марка водки высокого класса. Ее ценят за мягкий вкус и ненавязчивый аромат, полученный благодаря использованию натурального сырья и 200 ступенчатой системе очистки и фильтрации.",
+              "weight": "500мл",
+              "price": "1600",
+              "id": "finlandia-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Финляндия вкусовая 0,05",
+              "description": "Вкус удивительно чистой водки Финляндия раскрывается  богатом ассортименте вариаций. Клюква, грейпфрут, малина.. Стоит попробовать все.",
+              "weight": "50мл",
+              "price": "180",
+              "id": "finlandia-tasty",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Финляндия вкусовая 0,5",
+              "description": "Финляндия вкусовая Вкус удивительно чистой водки Финляндия раскрывается богатом ассортименте вариаций. Клюква, грейпфрут, малина. Стоит попробовать все.",
+              "weight": "500мл",
+              "price": "1700",
+              "id": "finlandia-tasty-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Царская золотая 0,05",
+              "description": "При создании водки Царская Золотая используется спирт «Люкс» и чистая вода из Ладожского озера. Процесс очистки водки включает в себя прохождение продукта через фильтры, прошитые золотой нитью.",
+              "weight": "50мл",
+              "price": "410",
+              "id": "carskaya-gold",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Царская золотая 0,5",
+              "description": "При создании водки Царская Золотая используется спирт «Люкс» и чистая вода из Ладожского озера. Процесс очистки водки включает в себя прохождение продукта через фильтры, прошитые золотой нитью.",
+              "weight": "500мл",
+              "price": "1600",
+              "id": "carskaya-gold-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Царская оригинальная 0,05",
+              "description": "При создании водки Царская Золотая используется спирт «Люкс» и чистая вода из Ладожского озера. Процесс очистки водки включает в себя прохождение продукта через фильтры, прошитые золотой нитью.",
+              "weight": "50мл",
+              "price": "150",
+              "id": "carskaya",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Царская оригинальная 0,5",
+              "description": "При создании водки Царская Золотая используется спирт «Люкс» и чистая вода из Ладожского озера. Процесс очистки водки включает в себя прохождение продукта через фильтры, прошитые золотой нитью.",
+              "weight": "500мл",
+              "price": "1450",
+              "id": "carskaya-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Джин",
+          "image": "/static/images/kitchen.jpg",
+          "id": "jin",
+          "products": [
+            {
+              "name": "Бифитер 0,05",
+              "description": "Beefeater— лондонский сухой джин. Это единственный из всех марок лондонского джина, производство которого по-прежнему осуществляется в Лондоне. Кориандр, дягиль и миндаль придают напитку травянистый аромат с легкой горчинкой в послевкусии. И именно эти компоненты отличают Beefeater от других марок джина.",
+              "weight": "50мл",
+              "price": "280",
+              "id": "befeeter",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бифитер 0,7",
+              "description": "Beefeater— лондонский сухой джин. Это единственный из всех марок лондонского джина, производство которого по-прежнему осуществляется в Лондоне. Кориандр, дягиль и миндаль придают напитку травянистый аромат с легкой горчинкой в послевкусии. И именно эти компоненты отличают Beefeater от других марок джина.",
+              "weight": "700мл",
+              "price": "3880",
+              "id": "befeeter",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Игристые Вина",
+          "image": "/static/images/kitchen.jpg",
+          "id": "shampain",
+          "products": [
+            {
+              "name": "Мартини Просекко 0,75",
+              "description": "Для производства этого классического итальянского игристого вина используется отборный виноград сорта Глера, собранный вручную на лучших виноградниках. Яркий фруктовый букет и свежий вкус этого игристого вина прекрасно утолит жажду. Martini Prosecco - отличный аперитив и аккомпанемент к еде на каждый день.",
+              "weight": "750мл",
+              "price": "2000",
+              "id": "martini-prosekko",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Пиканти Брутиси сухое 0,75",
+              "description": "Тонкий букет с цветочно-фруктовыми оттенками и легкими, изящными нотками груши. Легкий вкус с деликатным оттенком сладости. Напиток PICANTI BrutIsi – это искрящееся летнее настроение в любое время года.",
+              "weight": "750мл",
+              "price": "700",
+              "id": "pikanti-brutisi",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Пиканти Дольчезе полусладкое 0,75",
+              "description": "Создано из бленда белых сортов винограда, привносящих в букет тонкие ноты муската, которые создают атмосферу чувственности, любви и романтики. Рашель - для тех, кто любит!",
+              "weight": "750мл",
+              "price": "700",
+              "id": "pikanti-dolche",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Коньяк",
+          "image": "/static/images/kitchen.jpg",
+          "id": "konjak",
+          "products": [
+            {
+              "name": "Мартель ВС 0,05",
+              "description": "Коньяк имеет энергичный, сбалансированный, гармоничный и мягкий вкус с тонами фруктов, создающий во рту приятное ощущение чистоты и свежести. Прекрасен как в чистом виде, так и со льдом или небольшим количеством воды.",
+              "weight": "50мл",
+              "price": "440",
+              "id": "martel-ws",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартель ВС 0,7",
+              "description": "Коньяк имеет энергичный, сбалансированный, гармоничный и мягкий вкус с тонами фруктов, создающий во рту приятное ощущение чистоты и свежести. Прекрасен как в чистом виде, так и со льдом или небольшим количеством воды.",
+              "weight": "700мл",
+              "price": "6000",
+              "id": "martel-ws-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартель ВСОП 0,05",
+              "description": "В купаж входят отборные спирты 8–12-летней выдержки. Классический, насыщенный и богатый коньяк, полнота вкуса которого позволяет употреблять его в чистом виде, со льдом и в коктейлях.",
+              "weight": "50мл",
+              "price": "500",
+              "id": "martel-wosp",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Мартель ВСОП 0,7",
+              "description": "В купаж входят отборные спирты 8–12-летней выдержки. Классический, насыщенный и богатый коньяк, полнота вкуса которого позволяет употреблять его в чистом виде, со льдом и в коктейлях.",
+              "weight": "700мл",
+              "price": "6900",
+              "id": "martel-wosp-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Ликеры и Настойки",
+          "image": "/static/images/kitchen.jpg",
+          "id": "Liquers",
+          "products": [
+            {
+              "name": "Абсент Фруко Шульц 0,05",
+              "description": "Благодаря особым эффектам от употребления абсента, его иногда называют «марихуаной в бутылке». Способы употребления бывают разные: французский, чешский или российский. В любом случае, сегодня у Вас есть возможность попробовать все три.",
+              "weight": "50мл",
+              "price": "300",
+              "id": "fruko-shults",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Абсент Фруко Шульц 0,7",
+              "description": "Благодаря особым эффектам от употребления абсента, его иногда называют «марихуаной в бутылке». Способы употребления бывают разные: французский, чешский или российский. В любом случае, сегодня у Вас есть возможность попробовать все три.",
+              "weight": "700мл",
+              "price": "4200",
+              "id": "fruko-shults-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бехеровка 0,05",
+              "description": "Бехеровка - национальный напиток Чехии, своего рода визитная карточка страны. Изначально в 1807 году этот напиток появился как лекарственное средство для стимулирования пищеварения. Сейчас это популярный ликер, который завоевал большое количество наград во всемирных конкурсах алкогольных напитков.",
+              "weight": "50мл",
+              "price": "220",
+              "id": "becherovka",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бехеровка 0,7",
+              "description": "Бехеровка - национальный напиток Чехии, своего рода визитная карточка страны. Изначально в 1807 году этот напиток появился как лекарственное средство для стимулирования пищеварения. Сейчас это популярный ликер, который завоевал большое количество наград во всемирных конкурсах алкогольных напитков.",
+              "weight": "700мл",
+              "price": "3000",
+              "id": "becherovka-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Кампари 0,05",
+              "description": "Биттер обладает сильной горечью, которая передается и коктейлям. Однако его вкус включает и лучшую гамму цитрусовых ноток и ароматов альпийских трав. Поэтому он является одним из любимых апельсиновых ликеров, а горечь становится малозаметна и лишь добавляет ему пикантности.",
+              "weight": "50мл",
+              "price": "230",
+              "id": "campari",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Кампари 1 литр",
+              "description": "Биттер обладает сильной горечью, которая передается и коктейлям. Однако его вкус включает и лучшую гамму цитрусовых ноток и ароматов альпийских трав. Поэтому он является одним из любимых апельсиновых ликеров, а горечь становится малозаметна и лишь добавляет ему пикантности.",
+              "weight": "1000мл",
+              "price": "4600",
+              "id": "campari-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ликер Фруко Шульц 0,05",
+              "description": "Широкая линейка ликеров позволит эксперементировать с любыми сочетаниями. Будьте готовы к открытиям - наши бармены готовы сделать для Вас любой коктейль!",
+              "weight": "50мл",
+              "price": "260",
+              "id": "liquer-fruko-shults",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ликер Фруко Шульц 0,7",
+              "description": "Широкая линейка ликеров позволит эксперементировать с любыми сочетаниями. Будьте готовы к открытиям - наши бармены готовы сделать для Вас любой коктейль!",
+              "weight": "700мл",
+              "price": "3500",
+              "id": "liquer-fruko-shults-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Настойка МАО фирменная 0,05",
+              "description": "Фирменная настойка сделанная на основе натуральных специй, трав и фруктов. Уточняйте у официанта какую именно сегодня можете попробовать.",
+              "weight": "50мл",
+              "price": "150",
+              "id": "nastojka-mao",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Самбука Ламоника 0,05",
+              "description": "В купаж входят отборные спирты 8–12-летней выдержки. Классический, насыщенный и богатый коньяк, полнота вкуса которого позволяет употреблять его в чистом виде, со льдом и в коктейлях.",
+              "weight": "50мл",
+              "price": "270",
+              "id": "sambuka-lamonika",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Самбука Ламоника 0,5",
+              "description": "Тягучая консистенция, необычный вкус снискали ликеру Самбуке любовь и почитание знатоков коктейлей и качественного алкоголя. Традиционно подается горящей с зернами кофе.",
+              "weight": "500мл",
+              "price": "2500",
+              "id": "sambuka-lamonika-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ягермастер 0,05",
+              "description": "Тягучая консистенция, необычный вкус снискали ликеру Самбуке любовь и почитание знатоков коктейлей и качественного алкоголя. Традиционно подается горящей с зернами кофе.",
+              "weight": "50мл",
+              "price": "270",
+              "id": "jager",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ягермастер 0,7",
+              "description": "Тягучая консистенция, необычный вкус снискали ликеру Самбуке любовь и почитание знатоков коктейлей и качественного алкоголя. Традиционно подается горящей с зернами кофе.",
+              "weight": "500мл",
+              "price": "3700",
+              "id": "jager-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Ром",
+          "image": "/static/images/kitchen.jpg",
+          "id": "rom",
+          "products": [
+            {
+              "name": "Бакарди Карта Бланка 0,05",
+              "description": "Молодой и элегантный, по-латиноамерикански страстный напиток. Это отличная основа для приготовления коктейлей и самый титулованный ром в мире.",
+              "weight": "50мл",
+              "price": "250",
+              "id": "bakkardi-blanka",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бакарди Карта Бланка 0,7",
+              "description": "Молодой и элегантный, по-латиноамерикански страстный напиток. Это отличная основа для приготовления коктейлей и самый титулованный ром в мире.",
+              "weight": "700мл",
+              "price": "700",
+              "id": "bakkardi-blanka-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бакарди Оакхарт 0,05",
+              "description": "При производстве Бакарди Оакхарт сначала создают базовый купаж из выдержанных ромов Bacardi. Затем продукт помещается в обожжённые бочки из белого американского дуба на 12 месяцев, где он приобретает ярко-выраженные древесные тона с дымной ноткой. На последней стадии выдержки добавляется мёд, а также экстракты ванили, мускатного ореха и корицы. В результате получается уникальный продукт с бархатистой мягкостью, насыщенный пряными нотами.",
+              "weight": "50мл",
+              "price": "250",
+              "id": "bakkardi-oakheart",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Бакарди Оакхарт 0,7",
+              "description": "При производстве Бакарди Оакхарт сначала создают базовый купаж из выдержанных ромов Bacardi. Затем продукт помещается в обожжённые бочки из белого американского дуба на 12 месяцев, где он приобретает ярко-выраженные древесные тона с дымной ноткой. На последней стадии выдержки добавляется мёд, а также экстракты ванили, мускатного ореха и корицы. В результате получается уникальный продукт с бархатистой мягкостью, насыщенный пряными нотами.",
+              "weight": "700мл",
+              "price": "3400",
+              "id": "bakkardi-oakheart",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Гавана Эспесиаль 0,05",
+              "description": "Особенный золотой ром премиум-класса. Спирты, входящие в его купаж, проводят длительное время во вручную отобранных бочках, достигая совершенства вкусо-ароматического букета и удивительной мягкости. Обладает богатым, отлично сбалансированным, мягким вкусом с нотами карамели, ванили, оттенками трубочного табака, корицы и апельсиновой корки. ",
+              "weight": "50мл",
+              "price": "250",
+              "id": "havanna-espesial",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Гавана Эспесиаль 0,7",
+              "description": "Особенный золотой ром премиум-класса. Спирты, входящие в его купаж, проводят длительное время во вручную отобранных бочках, достигая совершенства вкусо-ароматического букета и удивительной мягкости. Обладает богатым, отлично сбалансированным, мягким вкусом с нотами карамели, ванили, оттенками трубочного табака, корицы и апельсиновой корки. ",
+              "weight": "700мл",
+              "price": "3400",
+              "id": "havanna-espesial-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Морган Спайсед Блек 0,05",
+              "description": "У рома характерный угольно-черный цвет. Вкус мягкий бархатистый c нотками колы, гвоздики, корицы и красивым дубовым обрамлением. Аромат рома напоминает выдержанный виски, раскрываясь тонами специй, ванили, темной карамели, корицы и гибискуса. Отлично подойдет для самых смелых и необычных коктейлей.",
+              "weight": "50мл",
+              "price": "280",
+              "id": "morgan-spiced-black",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Морган Спайсед Блек 0,05",
+              "description": "У рома характерный угольно-черный цвет. Вкус мягкий бархатистый c нотками колы, гвоздики, корицы и красивым дубовым обрамлением. Аромат рома напоминает выдержанный виски, раскрываясь тонами специй, ванили, темной карамели, корицы и гибискуса. Отлично подойдет для самых смелых и необычных коктейлей.",
+              "weight": "700мл",
+              "price": "3880",
+              "id": "morgan-spiced-black-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            }
+          ]
+        },
+
+        {
+          "name": "Текилла",
+          "image": "/static/images/kitchen.jpg",
+          "id": "tequilla",
+          "products": [
+            {
+              "name": "Ольмека Шоколад 0,05",
+              "description": "Уникальная текила, которая сочетает в себе вкус темного шоколада и текилы Ольмека. Она обладает неповторимым ароматом и вкусом, ее рекомендуется пить в чистом виде со льдом, а также в составе коктейля Эль Бандито.",
+              "weight": "50мл",
+              "price": "300",
+              "id": "olmeca-chocolate",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ольмека Шоколад 0,7",
+              "description": "Уникальная текила, которая сочетает в себе вкус темного шоколада и текилы Ольмека. Она обладает неповторимым ароматом и вкусом, ее рекомендуется пить в чистом виде со льдом, а также в составе коктейля Эль Бандито.",
+              "weight": "700мл",
+              "price": "4050",
+              "id": "olmeca-chocolate-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ранчо Аллегре Бланко 0,05",
+              "description": "Молодая белая  текила с запахом агавы, лимонной цедры и орехов. Вкус напитка – мягкий, чуть сладковатый, с пикантной перечной горчинкой в послевкусии. Отличный выбор в классическом сочетании с лаймом и солью!",
+              "weight": "50мл",
+              "price": "250",
+              "id": "rancho-blanko",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ранчо Аллегре Бланко 0,7",
+              "description": "Молодая белая  текила с запахом агавы, лимонной цедры и орехов. Вкус напитка – мягкий, чуть сладковатый, с пикантной перечной горчинкой в послевкусии. Отличный выбор в классическом сочетании с лаймом и солью!",
+              "weight": "700мл",
+              "price": "3400",
+              "id": "rancho-blanko-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ранчо Аллегре Голд 0,05",
+              "description": "Текила с медным отливом, в которую добавляют немного сиропа из сахарного тростника. В результате она приобретает карамельно-цветочный аромат и медовый привкус.",
+              "weight": "50мл",
+              "price": "270",
+              "id": "rancho-gold",
+              "recommend": [],
+              "image": "/static/images/food.png"
+            },
+            {
+              "name": "Ранчо Аллегре Голд 0,7",
+              "description": "Текила с медным отливом, в которую добавляют немного сиропа из сахарного тростника. В результате она приобретает карамельно-цветочный аромат и медовый привкус.",
+              "weight": "700мл",
+              "price": "3600",
+              "id": "rancho-gold-bottle",
+              "recommend": [],
+              "image": "/static/images/food.png"
             }
           ]
         }
@@ -296,88 +2337,79 @@
       "image": "/static/images/shisha.jpg",
       "categories": [
         {
-          "name": "Вкусные",
+          "name": "Классика",
           "image": "/static/images/kitchen.jpg",
-          "id": "tasty",
+          "id": "classic",
           "products": [
             {
-              "name": "Яблоко",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "id": "18",
-              "recommend": ["8", "7", "6", "14"],
+              "name": "Кальян на воде",
+              "description": "",
+              "weight": "1шт",
+              "price": "800",
+              "id": "Water-hookah",
+              "recommend": [],
               "image": "/static/images/food.png"
             },
             {
-              "name": "Манго",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "recommend": ["8", "7", "6", "14"],
-              "id": "19",
+              "name": "Кальян на соке",
+              "description": "",
+              "weight": "1шт",
+              "price": "900",
+              "recommend": [],
+              "id": "juice-hookah",
               "image": "/static/images/food.png"
             },
             {
-              "name": "Персик",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "recommend": ["8", "7", "6", "14"],
-              "id": "20",
+              "name": "Кальян на молоке",
+              "description": "",
+              "weight": "1шт",
+              "price": "900",
+              "recommend": [],
+              "id": "mikl-hookah",
               "image": "/static/images/food.png"
             },
             {
-              "name": "Мята",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "price": "400",
-              "recommend": ["8", "7", "6", "14"],
-              "id": "21",
+              "name": "Кальян на алкоголе",
+              "description": "Выберете алкоголь к кальяну",
+              "weight": "1шт",
+              "price": "800",
+              "recommend": [],
+              "id": "alco-hookah",
               "image": "/static/images/food.png"
             }
           ]
         },
 
         {
-          "name": "Невкусные",
+          "name": "Кальян на Фрукте",
           "image": "/static/images/kitchen.jpg",
-          "id": "notasty",
+          "id": "Fruit-hookah",
           "products": [
             {
-              "name": "Кокос",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "recommend": ["8", "7", "6", "14"],
-              "price": "400",
+              "name": "Кальян на апельсине",
+              "description": "",
+              "weight": "1шт",
+              "recommend": [],
+              "price": "1150",
               "id": "22",
               "image": "/static/images/food.png"
             },
             {
-              "name": "Малиновый",
-              "description": "Описание продукта",
-              "recommend": ["8", "7", "6", "14"],
-              "weight": "200г",
-              "price": "400",
-              "id": "23",
+              "name": "Кальян на грейпфруте",
+              "description": "",
+              "recommend": [],
+              "weight": "1шт",
+              "price": "1150",
+              "id": "grape-hookah",
               "image": "/static/images/food.png"
             },
             {
-              "name": "Мультифрукт",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "recommend": ["8", "7", "6", "14"],
-              "price": "400",
-              "id": "24",
-              "image": "/static/images/food.png"
-            },
-            {
-              "name": "Кокос",
-              "description": "Описание продукта",
-              "weight": "200г",
-              "recommend": ["8", "7", "6", "14"],
-              "price": "400",
-              "id": "25",
+              "name": "Кальян на ананасе",
+              "description": "",
+              "recommend": [],
+              "weight": "1шт",
+              "price": "1300",
+              "id": "pinaple-hookah",
               "image": "/static/images/food.png"
             }
           ]
