@@ -1386,7 +1386,7 @@
               "price": "300",
               "id": "ani-6years",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgur.com/a/hqkjM"
             },
             {
               "name": "Ани 6 лет 0,5",
@@ -1395,7 +1395,7 @@
               "price": "2850",
               "id": "ani-6years-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgur.com/a/hqkjM"
             },
             {
               "name": "Арарат 5 лет 0,05",
@@ -2425,7 +2425,7 @@
   "promo": [
     {
       "name": "Дабл кальян",
-      "description": "Двойной кальян по приятной цене: 1300 руб."
+      "description": "Двойной кальян по приятной цене: 1300 руб"
     }
   ]
 }
