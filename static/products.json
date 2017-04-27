@@ -626,8 +626,13 @@
               "weight": "350мл",
               "price": "300",
               "id": "blue-lagoon",
+<<<<<<< HEAD
               "image": "https://imgdepo.com/id/10576424.jpg",
               "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"]
+=======
+              "image": "http://i.imgur.com/u1K4WbH.jpg",
+              "recommend": []
+>>>>>>> fe17490d76e92fd671ca9c5a9a01ac1d9ad6302b
             },
             {
               "name": "Игристая белая сангрия",
