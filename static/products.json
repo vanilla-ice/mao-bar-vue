@@ -1746,7 +1746,7 @@
         {
           "name": "Виски",
           "image": "/static/images/kitchen.jpg",
-          "id": "house-wine",
+          "id": "whiskey",
           "products": [
             {
               "name": "Балантайнс 0,05",
@@ -2048,7 +2048,7 @@
               "price": "440",
               "id": "martel-ws",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578156.jpg"
             },
             {
               "name": "Мартель ВС 0,7",
@@ -2057,7 +2057,7 @@
               "price": "6000",
               "id": "martel-ws-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578156.jpgб"
             },
             {
               "name": "Мартель ВСОП 0,05",
@@ -2092,7 +2092,7 @@
               "price": "300",
               "id": "fruko-shults",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578164.jpg"
             },
             {
               "name": "Абсент Фруко Шульц 0,7",
@@ -2101,7 +2101,7 @@
               "price": "4200",
               "id": "fruko-shults-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578164.jpg"
             },
             {
               "name": "Бехеровка 0,05",
@@ -2110,7 +2110,7 @@
               "price": "220",
               "id": "becherovka",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578165.jpg"
             },
             {
               "name": "Бехеровка 0,7",
@@ -2119,7 +2119,7 @@
               "price": "3000",
               "id": "becherovka-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578165.jpg"
             },
             {
               "name": "Кампари 0,05",
@@ -2128,7 +2128,7 @@
               "price": "230",
               "id": "campari",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578166.jpg"
             },
             {
               "name": "Кампари 1 литр",
@@ -2137,7 +2137,7 @@
               "price": "4600",
               "id": "campari-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578166.jpg"
             },
             {
               "name": "Ликер Фруко Шульц 0,05",
@@ -2146,7 +2146,7 @@
               "price": "260",
               "id": "liquer-fruko-shults",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578167.jpg"
             },
             {
               "name": "Ликер Фруко Шульц 0,7",
@@ -2155,7 +2155,7 @@
               "price": "3500",
               "id": "liquer-fruko-shults-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578167.jpg"
             },
             {
               "name": "Настойка МАО фирменная 0,05",
@@ -2164,7 +2164,7 @@
               "price": "150",
               "id": "nastojka-mao",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578168.jpg"
             },
             {
               "name": "Самбука Ламоника 0,05",
@@ -2173,7 +2173,7 @@
               "price": "270",
               "id": "sambuka-lamonika",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578169.jpg"
             },
             {
               "name": "Самбука Ламоника 0,5",
@@ -2182,7 +2182,7 @@
               "price": "2500",
               "id": "sambuka-lamonika-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578169.jpg"
             },
             {
               "name": "Ягермастер 0,05",
@@ -2191,7 +2191,7 @@
               "price": "270",
               "id": "jager",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578170.jpg"
             },
             {
               "name": "Ягермастер 0,7",
@@ -2200,7 +2200,7 @@
               "price": "3700",
               "id": "jager-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10578170.jpg"
             }
           ]
         },
@@ -2217,7 +2217,7 @@
               "price": "250",
               "id": "bakkardi-blanka",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578222.jpg"
             },
             {
               "name": "Бакарди Карта Бланка 0,7",
@@ -2226,7 +2226,7 @@
               "price": "700",
               "id": "bakkardi-blanka-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578222.jpg"
             },
             {
               "name": "Бакарди Оакхарт 0,05",
@@ -2235,7 +2235,7 @@
               "price": "250",
               "id": "bakkardi-oakheart",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578223.jpg"
             },
             {
               "name": "Бакарди Оакхарт 0,7",
@@ -2244,7 +2244,7 @@
               "price": "3400",
               "id": "bakkardi-oakheart",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578223.jpg"
             },
             {
               "name": "Гавана Эспесиаль 0,05",
@@ -2253,7 +2253,7 @@
               "price": "250",
               "id": "havanna-espesial",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578224.jpg"
             },
             {
               "name": "Гавана Эспесиаль 0,7",
@@ -2262,7 +2262,7 @@
               "price": "3400",
               "id": "havanna-espesial-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578224.jpg"
             },
             {
               "name": "Морган Спайсед Блек 0,05",
@@ -2271,7 +2271,7 @@
               "price": "280",
               "id": "morgan-spiced-black",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578226.jpg"
             },
             {
               "name": "Морган Спайсед Блек 0,05",
@@ -2280,7 +2280,7 @@
               "price": "3880",
               "id": "morgan-spiced-black-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10578226.jpg"
             }
           ]
         },
