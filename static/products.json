@@ -203,7 +203,7 @@
               "description": "",
               "weight": "50г",
               "price": "150",
-              "id": "toasts",
+              "id": "sujuk",
               "image": "",
               "recommend": ["5", "6", "10"]
             }
@@ -626,13 +626,8 @@
               "weight": "350мл",
               "price": "300",
               "id": "blue-lagoon",
-<<<<<<< HEAD
               "image": "https://imgdepo.com/id/10576424.jpg",
               "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"]
-=======
-              "image": "http://i.imgur.com/u1K4WbH.jpg",
-              "recommend": []
->>>>>>> fe17490d76e92fd671ca9c5a9a01ac1d9ad6302b
             },
             {
               "name": "Игристая белая сангрия",
@@ -1132,7 +1127,7 @@
               "weight": "500мл",
               "price": "160",
               "id": "light-beer",
-              "recommend": ["8", "7", "6", "14"],
+              "recommend": ["shrimp-brew", "sujuk", "toasts"],
               "image": ""
             },
             {
@@ -1141,7 +1136,7 @@
               "weight": "330мл",
               "price": "120",
               "id": "beer-light-small",
-              "recommend": ["8", "7", "6", "14"],
+              "recommend": ["shrimp-brew", "sujuk", "toasts"],
               "image": ""
             },
             {
@@ -1150,7 +1145,7 @@
               "weight": "500мл",
               "price": "160",
               "id": "dark-beer",
-              "recommend": ["8", "7", "6", "14"],
+              "recommend": ["shrimp-brew", "sujuk", "toasts"],
               "image": ""
             },
             {
@@ -1159,7 +1154,7 @@
               "weight": "330мл",
               "price": "120",
               "id": "dark-beer-small",
-              "recommend": ["8", "7", "6", "14"],
+              "recommend": ["shrimp-brew", "sujuk", "toasts"],
               "image": ""
             },
             {
@@ -1204,7 +1199,7 @@
               "price": "150",
               "id": "san-huana",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577115.jpg"
             },
             {
               "name": "Дайте два!",
@@ -1213,7 +1208,7 @@
               "price": "150",
               "id": "give-two",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577131.jpg"
             },
             {
               "name": "Вкусно",
@@ -1222,7 +1217,7 @@
               "price": "150",
               "id": "tasty",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577124.jpg"
             },
             {
               "name": "Лимонад домашний",
@@ -1231,7 +1226,7 @@
               "price": "180",
               "id": "lemonade",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577140.jpg"
             },
             {
               "name": "Глинтвейн безалкогольный",
@@ -1240,7 +1235,7 @@
               "price": "180",
               "id": "noalco-glintwine",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577125.jpg"
             },
             {
               "name": "Лимонад имбирный",
@@ -1249,7 +1244,7 @@
               "price": "220",
               "id": "ginger-lemo",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577141.jpg"
             },
             {
               "name": "Лимонад облепиховый",
@@ -1258,7 +1253,7 @@
               "price": "220",
               "id": "obli-lemo",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577142.jpg"
             },
             {
               "name": "Мохито безалкогольный",
@@ -1267,7 +1262,7 @@
               "price": "250",
               "id": "mojito-noalco",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577149.jpg"
             }
           ]
         },
@@ -1391,7 +1386,7 @@
               "price": "300",
               "id": "ani-6years",
               "recommend": [],
-              "image": "http://imgur.com/a/hqkjM"
+              "image": "https://imgdepo.com/id/10577185.jpg"
             },
             {
               "name": "Ани 6 лет 0,5",
@@ -1400,7 +1395,7 @@
               "price": "2850",
               "id": "ani-6years-bottle",
               "recommend": [],
-              "image": "http://imgur.com/a/hqkjM"
+              "image": "https://imgdepo.com/id/10577185.jpg"
             },
             {
               "name": "Арарат 5 лет 0,05",
@@ -1409,7 +1404,7 @@
               "price": "220",
               "id": "ararat-50",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577186.jpg"
             },
             {
               "name": "Арарат 5 лет 0,5",
@@ -1418,7 +1413,7 @@
               "price": "2100",
               "id": "ararat-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577186.jpg"
             },
             {
               "name": "Сан Реми ВСОП 0,05",
@@ -1427,7 +1422,7 @@
               "price": "260",
               "id": "san-remi",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577191.jpg"
             },
             {
               "name": "Сан Реми ВСОП 0,05",
@@ -1436,7 +1431,7 @@
               "price": "2500",
               "id": "san-remi-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577191.jpg"
             }
           ]
         },
@@ -1453,7 +1448,7 @@
               "price": "280",
               "id": "djim-beam",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577200.jpg"
             },
             {
               "name": "Джим Бим 0,7",
@@ -1462,7 +1457,7 @@
               "price": "3800",
               "id": "djim-beam-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577200.jpg"
             },
             {
               "name": "Джим Бим Рэд Стаг 0,05",
@@ -1471,7 +1466,7 @@
               "price": "300",
               "id": "red-stag",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577201.jpg"
             },
             {
               "name": "Джим Бим Рэд Стаг 0,07",
@@ -1480,7 +1475,7 @@
               "price": "4050",
               "id": "red-stag-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577201.jpg"
             },
             {
               "name": "Джим Бим Эпл 0,05",
@@ -1489,7 +1484,7 @@
               "price": "300",
               "id": "jim-beam-apple",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577199.jpg"
             },
             {
               "name": "Джим Бим Эпл 0,7",
@@ -1498,7 +1493,7 @@
               "price": "4050",
               "id": "jim-beam-apple-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577199.jpg"
             }
           ]
         },
@@ -1515,7 +1510,7 @@
               "price": "120",
               "id": "martini-bjanko",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577204.jpg"
             },
             {
               "name": "Мартини Бьянко 1 литр",
@@ -1524,7 +1519,7 @@
               "price": "2200",
               "id": "martini-bjanko-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577204.jpg"
             },
             {
               "name": "Мартини Россо 0,05",
@@ -1533,7 +1528,7 @@
               "price": "120",
               "id": "martini-rosso",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577205.jpg"
             },
             {
               "name": "Мартини Россо 1 литр",
@@ -1542,7 +1537,7 @@
               "price": "2200",
               "id": "martini-rosso-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577205.jpg"
             },
             {
               "name": "Мартини Экстра Драй 0,05",
@@ -1551,7 +1546,7 @@
               "price": "120",
               "id": "martini-extradry",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577203.jpg"
             },
             {
               "name": "Мартини Экстра Драй 1 литр",
@@ -1560,7 +1555,7 @@
               "price": "2200",
               "id": "martini-extradry-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577203.jpg"
             }
           ]
         },
@@ -1577,7 +1572,7 @@
               "price": "1500",
               "id": "jacob-creek",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577272.jpg"
             },
             {
               "name": "Джейкоб С Крик Шираз Каберне красное сухое 0,75",
@@ -1586,7 +1581,7 @@
               "price": "1500",
               "id": "jacob-creek-caberne",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577273.jpg"
             }
           ]
         },
@@ -1603,7 +1598,7 @@
               "price": "1500",
               "id": "sanserge-blanko",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577279.jpg"
             },
             {
               "name": "DOC Сансегре Тинто сухое красное 0,75",
@@ -1612,7 +1607,7 @@
               "price": "1500",
               "id": "sanserge-tinto",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577280.jpg"
             },
             {
               "name": "Феста ла Виста в ассортименте 0,125",
@@ -1621,7 +1616,7 @@
               "price": "200",
               "id": "festa-la-vista",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577281.jpg"
             },
             {
               "name": "Феста ла Виста в ассортименте 0,75",
@@ -1630,7 +1625,7 @@
               "price": "1200",
               "id": "festa-la-vista-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577281.jpg"
             }
           ]
         },
@@ -1647,7 +1642,7 @@
               "price": "1800",
               "id": "bokantino-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577271.jpg"
             },
             {
               "name": "Портобелло Пино Гриджио сухое белое 0,75",
@@ -1656,7 +1651,7 @@
               "price": "1800",
               "id": "portobello-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577278.jpg"
             }
           ]
         },
@@ -1691,7 +1686,7 @@
               "price": "2000",
               "id": "melzan-merlo",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577274.jpg"
             },
             {
               "name": "Малезан Шардоне сухое белое 0,75",
@@ -1700,7 +1695,7 @@
               "price": "2000",
               "id": "melzan-shardane",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577275.jpg"
             }
           ]
         },
@@ -1717,7 +1712,7 @@
               "price": "1800",
               "id": "pacifico-sur-karmener",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577276.jpg"
             },
             {
               "name": "Пасифико Сур Совиньон Блан сухое белое 0,75",
@@ -1726,7 +1721,7 @@
               "price": "1800",
               "id": "pacifico-sur-karmener",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577277.jpg"
             }
           ]
         },
@@ -1760,7 +1755,7 @@
               "price": "160",
               "id": "balantains",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577489.jpg"
             },
             {
               "name": "Балантайнс 0,7",
@@ -1769,7 +1764,7 @@
               "price": "3400",
               "id": "balantains-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577489.jpg"
             },
             {
               "name": "Джек Дениэлс 0,05",
@@ -1778,7 +1773,7 @@
               "price": "320",
               "id": "jack-daniels",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577490.jpg"
             },
             {
               "name": "Джек Дениэлс 0,7",
@@ -1787,7 +1782,7 @@
               "price": "4400",
               "id": "jack-daniels-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577490.jpg"
             },
             {
               "name": "Джемисон 0,05",
@@ -1796,7 +1791,7 @@
               "price": "290",
               "id": "jameson",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577491.jpeg"
             },
             {
               "name": "Джемисон 0,7",
@@ -1805,7 +1800,7 @@
               "price": "3950",
               "id": "jameson-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577491.jpeg"
             },
             {
               "name": "Макаллан 12 лет 0,05",
@@ -1814,7 +1809,7 @@
               "price": "520",
               "id": "maccalan",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577493.jpg"
             },
             {
               "name": "Макаллан 12 лет 0,7",
@@ -1823,7 +1818,7 @@
               "price": "7100",
               "id": "maccalan-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577493.jpg"
             },
             {
               "name": "Чивас Регал 12 лет 0,05",
@@ -1832,7 +1827,7 @@
               "price": "410",
               "id": "chiwas-regal-12",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577494.jpg"
             },
             {
               "name": "Чивас Регал 12 лет 0,7",
@@ -1841,7 +1836,7 @@
               "price": "5500",
               "id": "chiwas-regal-12-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577494.jpg"
             }
           ]
         },
@@ -1858,7 +1853,7 @@
               "price": "180",
               "id": "absolute",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577498.jpg"
             },
             {
               "name": "Абсолют 0,5",
@@ -1867,7 +1862,7 @@
               "price": "1740",
               "id": "absolute-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577498.jpg"
             },
             {
               "name": "Беленькая 0,05",
@@ -1876,7 +1871,7 @@
               "price": "100",
               "id": "belenkaya",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577499.jpg"
             },
             {
               "name": "Беленькая 0,5",
@@ -1885,7 +1880,7 @@
               "price": "900",
               "id": "belenkaya-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577499.jpg"
             },
             {
               "name": "Финляндия 0,05",
@@ -1894,7 +1889,7 @@
               "price": "170",
               "id": "finlandia",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577501.jpg"
             },
             {
               "name": "Финляндия 0,5",
@@ -1903,7 +1898,7 @@
               "price": "1600",
               "id": "finlandia-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577501.jpg"
             },
             {
               "name": "Финляндия вкусовая 0,05",
@@ -1912,7 +1907,7 @@
               "price": "180",
               "id": "finlandia-tasty",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577500.jpg"
             },
             {
               "name": "Финляндия вкусовая 0,5",
@@ -1921,7 +1916,7 @@
               "price": "1700",
               "id": "finlandia-tasty-bottle",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "http://imgdepo.com/id/10577500.jpg"
             },
             {
               "name": "Царская золотая 0,05",
@@ -1974,7 +1969,7 @@
               "price": "280",
               "id": "befeeter",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": " "
             },
             {
               "name": "Бифитер 0,7",
@@ -1983,7 +1978,7 @@
               "price": "3880",
               "id": "befeeter",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": " "
             }
           ]
         },
@@ -1994,13 +1989,31 @@
           "id": "shampain",
           "products": [
             {
+              "name": "Кава в ассортименте 0,75",
+              "description": "Кава (Cava) - испанский вызов французскому шампанскому. Жаркий и солнечный средиземноморский климат способствует высокой природной концентрации сахара в винограде. Это позволяет производителям кавы не добавлять сахар в готовое вино. Каву можно подобрать как сопровождение к абсолютно любым блюдам: Брют идеально подходит к холодным закускам, сырам и морепродуктам; Брют Натуре Резерва и Гран Резерва — к мясу и птице; розовая и полусухая кава отлично сочетаются с десертами.",
+              "weight": "750мл",
+              "price": "1200",
+              "id": "kava",
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10577502.jpg"
+            },
+            {
+              "name": "Мартини Асти 0,75",
+              "description": "Существует множество причин насладиться этим прекрасным изысканным вином с богатым фруктовым ароматом. Это и тихий семейный праздник, и шумное застолье, и воскресный десерт, и вечер при свечах, и встреча старых друзей. Asti Martini с удовольствием составит Вам компанию, поделится своим лёгким игристым настроением и множеством озорных весёлых пузырьков, так стремительно рвущихся на свободу!",
+              "weight": "750мл",
+              "price": "2200",
+              "id": "martini-asti",
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10577503.jpg"
+            },
+            {
               "name": "Мартини Просекко 0,75",
               "description": "Для производства этого классического итальянского игристого вина используется отборный виноград сорта Глера, собранный вручную на лучших виноградниках. Яркий фруктовый букет и свежий вкус этого игристого вина прекрасно утолит жажду. Martini Prosecco - отличный аперитив и аккомпанемент к еде на каждый день.",
               "weight": "750мл",
               "price": "2000",
               "id": "martini-prosekko",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577504.jpg"
             },
             {
               "name": "Пиканти Брутиси сухое 0,75",
@@ -2009,7 +2022,7 @@
               "price": "700",
               "id": "pikanti-brutisi",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577505.jpg"
             },
             {
               "name": "Пиканти Дольчезе полусладкое 0,75",
@@ -2018,7 +2031,7 @@
               "price": "700",
               "id": "pikanti-dolche",
               "recommend": [],
-              "image": "/static/images/food.png"
+              "image": "https://imgdepo.com/id/10577506.jpg"
             }
           ]
         },
