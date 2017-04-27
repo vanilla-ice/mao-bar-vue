@@ -16,9 +16,9 @@
               "description": "Самый популярный в мире салат имеет множество вариаций и дополнений. Неизменным остается удивительный вкус соуса собственного приготовления в сочетании с хрустящим свежим салатом, пармезана и хрустящих гренок. В Мао Вы можете попробовать Цезарь с обжаренными морепродуктами.",
               "weight": "250г",
               "price": "360",
-              "id": "cesar-sea",
-              "image": "https://lh6.googleusercontent.com/6VkLL1xoF9ZyuBH8eqa9BtGrDE08wZAfrm1nTjUOf4euV0PUflx2GukGSaZM1u_YTWh8ySy9SsvnXlI=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "id": "cesar-seafood",
+              "image": "https://pp.userapi.com/c837520/v837520362/36095/YNpwfpDgnF4.jpg",
+              "recommend": ["ginger-lemo", "punsh", "melzan-shardane"]
             },
             {
               "name": "Цезарь с креветкой",
@@ -26,8 +26,8 @@
               "weight": "250г",
               "price": "360",
               "id": "cesar-shrimp",
-              "image": "https://lh3.googleusercontent.com/jtJzfYrqN5CFKf11uW-s3yY9LjVo5iQ1NznWMVZzTTxsaBd3hy5qcpuml-_7XsoVMZqccQxkQXcwky4=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35fe7/zZMY2KubWFY.jpg",
+              "recommend": ["jager-bomb", "martini-prosekko", "punsh"]
             },
             {
               "name": "Цезарь с курицей",
@@ -35,8 +35,8 @@
               "weight": "250г",
               "price": "290",
               "id": "cesar-chiken",
-              "image": "https://lh6.googleusercontent.com/fi5hJ6qz_sRRsdGjB-AuWY19-36UTj1UYLxYgVI9m01FtFTTaINQvh5SzsHD8-ZXaTcnPfHNmywN5ig=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/36029/kJDXhhYzQ9M.jpg",
+              "recommend": ["jager-bomb", "martini-prosekko", "punsh"]
             },
             {
               "name": "Салат овощной с медово-горчичной заправкой",
@@ -44,8 +44,8 @@
               "weight": "200г",
               "price": "240",
               "id": "Honey-mustard",
-              "image": "https://lh6.googleusercontent.com/Rc1VhMWXVblIHyvIzEnEujjh8Hlw8xzNcluEoDDRx0aWmiK6oz17oBm7tAuYwhjfZS_pFsZ77ONH6VA=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/360d0/HwIR9bg3lMM.jpg",
+              "recommend": ["autumn-colors", "portobello-bottle"]
             },
             {
               "name": "Греческий салат",
@@ -53,8 +53,8 @@
               "weight": "250г",
               "price": "260",
               "id": "greek",
-              "image": "https://lh5.googleusercontent.com/yv6xUr2Tk9vh4_-cq11JP8EdwO04yILr9DtMRhNDpI1PBPVDMUEH0fO91GN5vvmbaUl0woBNm-7ripo=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35d66/AWAL2ELtNmU.jpg",
+              "recommend": ["pacifico-sur-karmener", "daikiri"]
             },
             {
               "name": "Салат с морепродуктами и апельсином",
@@ -62,8 +62,8 @@
               "weight": "250г",
               "price": "360",
               "id": "orange-and-seafood",
-              "image": "https://lh4.googleusercontent.com/oorSDCffTOxBfk879nX7kaOakPvubFKahPTD9Yp2vmYzVE95wxzLKHLy7MfmidICrHReJSoZ_TlPsUc=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35ebf/UyqtRkMIvIQ.jpg",
+              "recommend": ["sanserge-blanko", "daikiri"]
             },
             {
               "name": "Салат с лососем и персиком",
@@ -72,7 +72,7 @@
               "price": "390",
               "id": "cesar-chiken",
               "image": "/static/images/food.png",
-              "recommend": ["1", "2"]
+              "recommend": ["jacob-creek", "autumn-colors"]
             },
             {
               "name": "Салат с креветками и грейпфрутом",
@@ -80,8 +80,8 @@
               "weight": "200г",
               "price": "400",
               "id": "srimp-grape",
-              "image": "https://lh6.googleusercontent.com/Rps8nXtC1vRrxlVmGdkspN-oy9j1NACaxIOfdANEUI9fz1vCcYWdEulko0VgJ2IrjunAsULuzszsTM8=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35d70/W9REbfn2JlY.jpg",
+              "recommend": ["pacifico-sur-karmener", "befeeter"]
             },
             {
               "name": "Салат с курицей и грибами",
@@ -89,8 +89,8 @@
               "weight": "250г",
               "price": "320",
               "id": "chicken-mush",
-              "image": "https://lh3.googleusercontent.com/FIDunujBhHaD-zu1HzUjOxgIqznxNvy1Jz6RPQzL4bCNzlzwozy34tC1zGq7o09PxDXBcy5fi_oK3WQ=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35e2f/lsovUHlrcQ8.jpg",
+              "recommend": ["blue-lagoon", "rancho-blanko", "ginger-lemo"]
             },
             {
               "name": "Салат теплый со свининой",
@@ -98,8 +98,8 @@
               "weight": "300г",
               "price": "390",
               "id": "hot-becon",
-              "image": "https://lh4.googleusercontent.com/BHxONJfAGllYJCzFXFi7-wz92Po6stGqeiHBgG3OzA2oSw6k4_FFJS0eTIFv_o-THpF03vdgqOGF2_Q=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35f82/BXjeS4SUDp4.jpg",
+              "recommend": ["dark-beer", "jim-beam-apple"]
             },
             {
               "name": "Салат с тремя видами мяса",
@@ -107,8 +107,8 @@
               "weight": "300г",
               "price": "390",
               "id": "three-meat",
-              "image": "https://lh3.googleusercontent.com/nsWwHK4xjapFimHEV3GRVud1Dy4Qx9uwRET8k0ifTGGAJZaoXegSYe15cqD0t1UQxH0ebk75PPH3p20=w1920-h920-rw",
-              "recommend": ["1", "2"]
+              "image": "https://pp.userapi.com/c837520/v837520362/35f32/6WLVxxsWwbI.jpg",
+              "recommend": ["martel-wosp", "long-island"]
             }
           ]
         },
@@ -123,8 +123,8 @@
               "weight": "400г",
               "price": "300",
               "id": "kaprise",
-              "image": "https://lh6.googleusercontent.com/QNfL_EBzxurgC3jR9hOH0CfZ3f6x8ndazC6rvHhBPRyOeJ4m83YA2PEDDT5HIhwOdPXl54T9DXdvrJ0=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576172.jpg",
+              "recommend": ["punsh"]
             },
             {
               "name": "Креветки темпура в соусе васаби",
@@ -132,8 +132,8 @@
               "weight": "220г",
               "price": "490",
               "id": "shrimp-tempura",
-              "image": "https://drive.google.com/file/d/0B4twfgeX0sX9eHViUWZuendQZzg/view",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576175.jpg",
+              "recommend": ["light-beer", "sous"]
             },
             {
               "name": "Креветки отварные/жареные",
@@ -141,8 +141,8 @@
               "weight": "250г",
               "price": "290",
               "id": "shrimp-brew",
-              "image": "https://lh4.googleusercontent.com/acz0NNUaEgEkssWfgOjvRze7BHtKLm6iSWt-GmAWmcXK0bW3VhCFy4JLWMtMtLqcUiEs_XIam-m0RMg=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576173.jpg",
+              "recommend": ["light-beer", "sous"]
             },
             {
               "name": "Креветки тигровые на гриле",
@@ -150,8 +150,8 @@
               "weight": "200г",
               "price": "450",
               "id": "shrimp-tiger",
-              "image": "https://lh4.googleusercontent.com/4kxfwI7P4l0r2JuU_sYt2XqWrqUl9IqhAIXw_Nfs0VJMFIz9q4mkUl1i6GPnol0u0nw3DV51kc0vDsI=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576179.jpg",
+              "recommend": []
             },
             {
               "name": "Крылья барбекю",
@@ -159,8 +159,8 @@
               "weight": "300г",
               "price": "300",
               "id": "chiken-wings",
-              "image": "https://lh4.googleusercontent.com/7dW9CajTUzLWV3f7JLqOGnLAGFeWQGlwVc88b75dBH3XNkmN7L8grJVqF7pn7KYAddPWDSr_pVxFA6I=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576180.jpg",
+              "recommend": []
             },
             {
               "name": "Мидии в сливочном соусе",
@@ -168,8 +168,8 @@
               "weight": "300г",
               "price": "360",
               "id": "chiken-wings",
-              "image": "https://lh5.googleusercontent.com/QJcRfq9JdJQnz9sxb4epU_SwiJ7Woph9j8wjHBmG8h5WaKH3VFqxDQtIxp8ddAcOeTsl32Xvm4K2vWc=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576181.jpg",
+              "recommend": []
             },
             {
               "name": "Сырные палочки",
@@ -177,8 +177,8 @@
               "weight": "250г",
               "price": "260",
               "id": "cheese-stix",
-              "image": "https://lh6.googleusercontent.com/-y3TEowqoEX1JnizFOfXbWfCnqHkJNGIiFcIhke5y1kn8EmB2RVwn3WcGotZQQFGxE4skAa-Vcpbit8=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576183.jpg",
+              "recommend": []
             },
             {
               "name": "Плато сыров",
@@ -186,7 +186,7 @@
               "weight": "250г",
               "price": "500",
               "id": "chees-plato",
-              "image": "https://lh4.googleusercontent.com/oMi7Q4eqvp4-vhmn5XaehuQ8T4xullkPMvVAbZ_455KJ157aR8hogyBnFHUN2psiGqoLLMAEPHelnJI=w1920-h920-rw",
+              "image": "https://imgdepo.com/id/10576182.jpg",
               "recommend": ["5", "6", "10"]
             },
             {
@@ -195,7 +195,7 @@
               "weight": "150г",
               "price": "100",
               "id": "toasts",
-              "image": "/static/images/food.png",
+              "image": "",
               "recommend": ["5", "6", "10"]
             },
             {
@@ -204,7 +204,7 @@
               "weight": "50г",
               "price": "150",
               "id": "toasts",
-              "image": "/static/images/food.png",
+              "image": "",
               "recommend": ["5", "6", "10"]
             }
           ]
@@ -221,8 +221,8 @@
               "weight": "300г",
               "price": "280",
               "id": "uha-special",
-              "image": "https://lh4.googleusercontent.com/hfj6mCniLtvgai8NtL8UUfWj5t3o9hbP8i8kkOUyx9lgCcQ1sfFmsydJHq72AFsSvQUqa0sCx83VblQ=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576242.jpg",
+              "recommend": []
             },
             {
               "name": "Крем-суп грибной",
@@ -230,8 +230,8 @@
               "weight": "300г",
               "price": "300",
               "id": "mushroom-creamsoup",
-              "image": "https://lh5.googleusercontent.com/nJxQGUv1yWB-ZSUqcZu2FgmjO1EwuNry_kPtNJkg_K9EwOzawL5Ua0mOU6SSXyS8jDLcA3By0zWAF0E=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576237.jpg",
+              "recommend": []
             },
             {
               "name": "Лапша",
@@ -239,8 +239,8 @@
               "weight": "300г",
               "price": "250",
               "id": "noodles",
-              "image": "https://lh3.googleusercontent.com/1OFgdJFFdHwbDnhuRaurw4sFWaxszTLe_7rkOY5NjHzC2TqAyGtmvH4HClZjUPd6RBFzXmbDjNoOf1Q=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576234.jpg",
+              "recommend": []
             },
             {
               "name": "Солянка",
@@ -248,8 +248,8 @@
               "weight": "300г",
               "price": "300",
               "id": "noodles",
-              "image": "https://lh6.googleusercontent.com/-g_AmHaGmT6Pm0J1BwhU0dS6UhzuP2E7UkeLPnSodpcXfoK1PqqegK6RgpOa36lCAnZiDWpa5tAixeE=w1920-h920-rw",
-              "recommend": ["5", "6", "10"]
+              "image": "https://imgdepo.com/id/10576241.jpg",
+              "recommend": []
             }
           ]
         },
@@ -264,126 +264,126 @@
               "description": "",
               "weight": "300г",
               "price": "400",
-              "id": "1",
-              "image": "/static/images/food.png",
-              "recommend": ["5", "6", "10"]
+              "id": "sudak",
+              "image": "",
+              "recommend": []
             },
             {
               "name": "Форель на гриле",
               "description": "",
               "weight": "250г",
               "price": "300",
-              "id": "2",
-              "image": "https://lh3.googleusercontent.com/_DA1dBO8k21xlb95VrgQMbP-y3jYdbBvo1Sxku8MuWE6XgKOd8_IdOyXpN_bP6DVcAzqmYeI6rNYY4o=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "forel-grill",
+              "image": "https://imgdepo.com/id/10576342.jpg",
+              "recommend": []
             },
             {
               "name": "Стейк из телятины",
               "description": "Телятина – нежное нежирное мясо. Мы тщательно обжариваем его так, чтобы стейк сохранял сочность и аппетитный вид. Особую пкантность мясу придает клюквенный соус и пряности.",
               "weight": "350г",
               "price": "500",
-              "id": "3",
-              "image": "https://lh4.googleusercontent.com/t9OEvoOAUNlEQoWwEEDe1QbbieeVks0e-lFyFtaZwXWJ9S13jgouar3wp5jIIrFCh3VSZ7ZReng4uEY=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "id": "steak",
+              "image": "https://imgdepo.com/id/10576335.jpg",
+              "recommend": []
             },
             {
               "name": "Бефстроганов из говядины",
               "description": "",
               "weight": "350г",
               "price": "380",
-              "id": "4",
-              "image": "https://lh3.googleusercontent.com/8KjZbDR-HTeaY6jhXjl5LHvVsgbA3NFb16Lzg6TzWUsJDpczTjpivqm_VZjgIsZy-di1bHX75F1x8uo=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "beefstroganov",
+              "image": "https://imgdepo.com/id/10576316.jpg",
+              "recommend": []
             },
             {
               "name": "Жаркое  из свинины",
               "description": "",
               "weight": "300г",
               "price": "360",
-              "id": "5",
-              "image": "https://lh3.googleusercontent.com/2eXRCofFbYJRg6p2eicO-16JuJPVC-pO-puk6wqZjDThIj1H1NIED_VzYEFZZpXV5nDN5NF0GbAL__c=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "jarkoe-iz-svinini",
+              "image": "https://imgdepo.com/id/10576326.jpg",
+              "recommend": []
             },
             {
               "name": "Свинина в болгарском перце",
               "description": "",
               "weight": "350г",
               "price": "400",
-              "id": "6",
-              "image": "https://lh3.googleusercontent.com/w6133jPA2PIQs7k7vRHm89hgdgBSBUUzI90Nfx8hLFpg0QEc_gNV0FJ31jZDxe_H-UsDa4qX4ph-eQc=w1920-h920-rw ",
-              "recommend": ["1", "3"]
+              "id": "pork-in-pepper",
+              "image": "https://imgdepo.com/id/10576330.jpg",
+              "recommend": []
             },
             {
               "name": "Свинина с персиками",
               "description": "",
               "weight": "300г",
               "price": "400",
-              "id": "7",
-              "image": "https://lh6.googleusercontent.com/HrytxaI_8BKgRMrDvMdtTC3s2N2vymCvmQKZRRHHRLyWWyHjUcqxnST4A_BQKn5HR9p7woAq6UGxbbU=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "pork-peach",
+              "image": "https://imgdepo.com/id/10576332.jpg",
+              "recommend": []
             },
             {
               "name": "Курица на гриле с овощами",
               "description": "",
               "weight": "300г",
               "price": "350",
-              "id": "8",
-              "image": "https://lh3.googleusercontent.com/3UFr7UMeHzS1wB-gZArHVNaQM3jRPboEZxcHC__olcC3HVSLfzpVykVRge4o5EpBWHLGpR9VdU26qd0=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "chiken-grill-vege",
+              "image": "https://imgdepo.com/id/10576328.jpg",
+              "recommend": []
             },
             {
               "name": "Курица с соусом из сыра горгонзола",
               "description": "",
               "weight": "300г",
               "price": "400",
-              "id": "9",
-              "image": "https://lh6.googleusercontent.com/6tu3T6GIghhb-lDgGTB3JAF2b-2E8Ch5GaOQMMEgWbWLoxQw571PoDX2Dx0zrpHdgNwc-HzinQCoMUg=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "chiken-gargansola",
+              "image": "https://imgdepo.com/id/10576327.jpg",
+              "recommend": []
             },
             {
               "name": "Свиная корейка с картофелем по-деревенски и луком",
               "description": "",
               "weight": "450г",
               "price": "430",
-              "id": "10",
-              "image": "https://lh4.googleusercontent.com/jHC4BNT_SrnUODNNd6SNgqWSMpqCoxYn0XbZww9UunivC2-XZGTF8esPkV0Y89oEw64-W1YQ7XdtARU=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "korean-pork",
+              "image": "https://imgdepo.com/id/10576334.jpg",
+              "recommend": []
             },
             {
               "name": "Сэндвич с курицей и беконом",
               "description": "",
               "weight": "300г",
               "price": "290",
-              "id": "11",
-              "image": "https://lh3.googleusercontent.com/np91kKXQbRikzCpbQ5e9bxM1fIl04Ig7TEUS9DrYKKHLjoit1bcsOtUKo72A3sVRpK24LuP4jzMa_kE=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "chiken-becon-sandwich",
+              "image": "https://imgdepo.com/id/10576336.jpg",
+              "recommend": []
             },
             {
               "name": "Сэндвич с лососем",
               "description": "",
               "weight": "300г",
               "price": "320",
-              "id": "12",
-              "image": "https://lh3.googleusercontent.com/yFSjxoL4W4HCFwAvZl4mx6QEw_uAWpN9cBo305nApQcP9lSLDto6fUX_W-TgJ5xbg8EohqBIFWKDOJo=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "salmon-sandwich",
+              "image": "https://imgdepo.com/id/10576338.jpg",
+              "recommend": []
             },
             {
               "name": "Бургер  с говядиной",
               "description": "",
               "weight": "300г",
               "price": "350",
-              "id": "13",
-              "image": "https://lh5.googleusercontent.com/wPyCcBbvZSQNgwRAdXCsV7gRnfuTIYZTRjPu_C3QntcoRkavZttqeLp7DKoTIQ6OXeGtjE6YsCla-10=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "beaf-burger",
+              "image": "https://imgdepo.com/id/10576322.jpg",
+              "recommend": []
             },
             {
               "name": "Бургер МАО",
               "description": "",
               "weight": "300г",
               "price": "300",
-              "id": "14",
-              "image": "https://lh4.googleusercontent.com/zqBgkpay6PC__Ak0nVzYCj9yPBXncRv-4L59U8c8v94c_-6HRW7SR2MM0t00Uaj4nf6bpbp10rCTHxI=w1920-h920-rw",
-              "recommend": ["1", "3"]
+              "id": "mao-burger",
+              "image": "https://imgdepo.com/id/10576323.jpg",
+              "recommend": []
             }
           ]
         },
@@ -399,8 +399,8 @@
               "weight": "300г",
               "price": "330",
               "id": "Karbonara",
-              "image": "https://lh3.googleusercontent.com/AMLvr51GJ9r8B22HYryLXhY_gIOFj0MIbFpl0W3G2m7Te1WB65S388F54vbK-V2_Owi6hWI3RpE9omg=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576351.jpg",
+              "recommend": []
             },
             {
               "name": "Спагетти с овощами",
@@ -408,8 +408,8 @@
               "weight": "300г",
               "price": "300",
               "id": "spagetti-vege",
-              "image": "https://lh3.googleusercontent.com/KgFbOivjWYEl26kDPbW95PJnBfr3F18iQT90WdlN1VxmfW2WE6MqSDJFvNOjX8B-GB4q43sIry1qcOU=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576352.jpg",
+              "recommend": []
             },
             {
               "name": "Фетучини с курицей и грибами",
@@ -417,8 +417,8 @@
               "weight": "300г",
               "price": "360",
               "id": "Fetuchinni-chiken",
-              "image": "https://lh5.googleusercontent.com/cyQmp21V0HIWbh3S8vceZZYv3Uba4tqcQWUcVE7aPUK0GyfAvUImOLQ_ntgwg5XxS4CAMaNiEub-n1A=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576353.jpg",
+              "recommend": []
             },
             {
               "name": "Фетучини с морепродуктами",
@@ -426,8 +426,8 @@
               "weight": "300г",
               "price": "390",
               "id": "Fetuchinni-seafood",
-              "image": "https://lh5.googleusercontent.com/ilnwuKpPedEBWYZgH82-uuZTbSXpAC1MfDA8_pfoq6V1453U8ahJyLkV5unc2ZjZQMxBlWBYA-lWhm8=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576355.jpg",
+              "recommend": []
             },
             {
               "name": "Фетучини с креветками",
@@ -435,8 +435,8 @@
               "weight": "300г",
               "price": "380",
               "id": "Fetuchinni-shrimp",
-              "image": "https://lh5.googleusercontent.com/3utNLOkKyFmt-ew-d5bL8MImGofD5QhbHmIhhaKc_FlNvHwN8G0XJ1_OWuv1rHdEcbhcDsaJVPaClEM=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576355.jpg",
+              "recommend": []
             }
           ]
         },
@@ -452,8 +452,8 @@
               "weight": "200г",
               "price": "280",
               "id": "tortino",
-              "image": "https://lh3.googleusercontent.com/JavhjXUX2-fnZk6cmBDfbw6hANXQo9YQ0vNqYXDJMpf-upkt9Nbb1bkXaNqW4bedytiLRtyK8Az84dE=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576367.jpg",
+              "recommend": []
             },
             {
               "name": "Штрудель яблочный",
@@ -462,7 +462,7 @@
               "price": "220",
               "id": "strudel",
               "image": "/static/images/dessert.jpg",
-              "recommend": ["2", "1", "4"]
+              "recommend": []
             },
             {
               "name": "Чизкейк New York",
@@ -470,8 +470,8 @@
               "weight": "110г",
               "price": "200",
               "id": "cheesecacke-ny",
-              "image": "https://lh5.googleusercontent.com/lLS62Dxg7XbX7qkNQ9DyHGa-gMdGpYm8k3r87EbKGgLTQBJNkWcoUKmBH-w2HzQ5dn4JB0JdgZYlCn4=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576369.jpg",
+              "recommend": []
             },
             {
               "name": "Шоколадный чизкейк с орехами",
@@ -479,8 +479,8 @@
               "weight": "230г",
               "price": "220",
               "id": "cheesecacke-ny",
-              "image": "https://lh3.googleusercontent.com/HSDNpCQcLPdzPiJtug40RdLXUaDRZ9gDLfQrbJCyjM6nYn3OPMmUs2_JvFfaNsF563fS5MZM0SR5rmM=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576370.jpg",
+              "recommend": []
             },
             {
               "name": "Черничный пирог",
@@ -488,8 +488,8 @@
               "weight": "110г",
               "price": "200",
               "id": "blueberry-pie",
-              "image": "/static/images/dessert.jpg",
-              "recommend": ["2", "1", "4"]
+              "image": " ",
+              "recommend": []
             },
             {
               "name": "Тирамису",
@@ -497,8 +497,8 @@
               "weight": "120г",
               "price": "250",
               "id": "tiramisu",
-              "image": "/static/images/dessert.jpg",
-              "recommend": ["2", "1", "4"]
+              "image": " ",
+              "recommend": []
             },
             {
                 "name": "Мороженое в ассортименте",
@@ -506,17 +506,17 @@
               "weight": "100г",
               "price": "100",
               "id": "ice-cream",
-              "image": "https://lh6.googleusercontent.com/audYnBgLFTiUVzWzG9KPZ_QzXCVYtjAu52SeskYFLwnEQpjOERKApbKIYuam4vFMvI8MKo_trXiaGOU=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576366.jpg",
+              "recommend": []
             },
             {
               "name": "Фруктовая тарелка",
               "description": "",
               "weight": "500г",
               "price": "350",
-              "id": "ice-cream",
-              "image": "https://lh3.googleusercontent.com/VKDqwB-7sNBMH3nwj_o2MwH_zQEGVmAdrA8lB83Hl3y-bqHQtIQryoOB93-C3vB_jBrv4opGKedDHpQ=w1920-h920-rw",
-              "recommend": ["2", "1", "4"]
+              "id": "fruit-plate",
+              "image": "https://imgdepo.com/id/10576368.jpg",
+              "recommend": []
             }
           ]
         },
@@ -532,8 +532,8 @@
               "weight": "150г",
               "price": "120",
               "id": "fries",
-              "image": "",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576401.jpg",
+              "recommend": []
             },
             {
               "name": "Картофель по-деревенски",
@@ -541,8 +541,8 @@
               "weight": "150г",
               "price": "120",
               "id": "potato",
-              "image": "",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576399.jpg",
+              "recommend": []
             },
             {
               "name": "Овощи на гриле",
@@ -559,8 +559,8 @@
               "weight": "110г",
               "price": "150",
               "id": "brokkoli",
-              "image": "",
-              "recommend": ["2", "1", "4"]
+              "image": "https://imgdepo.com/id/10576398.jpg",
+              "recommend": []
             }
           ]
         },
@@ -626,8 +626,8 @@
               "weight": "350мл",
               "price": "300",
               "id": "blue-lagoon",
-              "image": "/static/images/alco.jpg",
-              "recommend": []
+              "image": "https://imgdepo.com/id/10576424.jpg",
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"]
             },
             {
               "name": "Игристая белая сангрия",
@@ -635,8 +635,8 @@
               "weight": "1300мл",
               "price": "1200",
               "id": "sangria",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["chees-plato", "greek"],
+              "image": "  "
             },
             {
               "name": "Мой Май",
@@ -644,8 +644,8 @@
               "weight": "180мл",
               "price": "380",
               "id": "my-may",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate"],
+              "image": "https://imgdepo.com/id/10576470.jpg"
             },
             {
               "name": "Дымный яблочный пирог",
@@ -653,8 +653,8 @@
               "weight": "260мл",
               "price": "350",
               "id": "apple-pie",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["ice-cream"],
+              "image": "https://imgdepo.com/id/10576435.jpg"
             },
             {
               "name": "Цвета осени",
@@ -662,8 +662,8 @@
               "weight": "320мл",
               "price": "320",
               "id": "autumn-colors",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576442.jpg"
             },
             {
               "name": "Маргарита",
@@ -671,8 +671,8 @@
               "weight": "150мл",
               "price": "400",
               "id": "Margarita",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576467.jpg"
             },
             {
               "name": "Маргарита личи",
@@ -680,8 +680,8 @@
               "weight": "200мл",
               "price": "400",
               "id": "Margarita-lichi",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": " "
             },
             {
               "name": "Маргарита вишневая",
@@ -689,8 +689,8 @@
               "weight": "200мл",
               "price": "400",
               "id": "Margarita-cherry",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": " "
             },
             {
               "name": "Дайкири",
@@ -698,8 +698,8 @@
               "weight": "150мл",
               "price": "350",
               "id": "daikiri",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576431.jpg"
             },
             {
               "name": "Дайкири смородиновый",
@@ -707,8 +707,8 @@
               "weight": "160мл",
               "price": "400",
               "id": "daikiri-smorodina",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": " "
             },
             {
               "name": "Дайкири имбирно-яблочный",
@@ -716,8 +716,8 @@
               "weight": "160мл",
               "price": "400",
               "id": "daikiri-apple",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": " g"
             },
             {
               "name": "Мохито",
@@ -725,8 +725,8 @@
               "weight": "380мл",
               "price": "350",
               "id": "Margarita",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576422.jpg"
             },
             {
               "name": "Зеленая фея",
@@ -734,8 +734,8 @@
               "weight": "380мл",
               "price": "500",
               "id": "green-fey",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576436.jpg"
             },
             {
               "name": "Пина Колада",
@@ -743,8 +743,8 @@
               "weight": "350мл",
               "price": "320",
               "id": "pina-colada",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576426.jpg"
             },
             {
               "name": "Лонг Айленд",
@@ -752,8 +752,8 @@
               "weight": "400мл",
               "price": "500",
               "id": "long-island",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576461.jpg"
             },
             {
               "name": "Ночь нежна",
@@ -761,8 +761,8 @@
               "weight": "120мл",
               "price": "350",
               "id": "pina-colada",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576425.jpg"
             },
             {
               "name": "Грог в термосе",
@@ -770,8 +770,8 @@
               "weight": "1000мл",
               "price": "800",
               "id": "grog",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576427.jpg"
             },
             {
               "name": "Мунлайт",
@@ -779,7 +779,7 @@
               "weight": "130мл",
               "price": "340",
               "id": "moonlight",
-              "recommend": ["1"],
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
               "image": "/static/images/alco.jpg"
             },
             {
@@ -788,8 +788,8 @@
               "weight": "180мл",
               "price": "250",
               "id": "cherry-beer",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576407.jpg"
             },
             {
               "name": "Хелп эспрессо",
@@ -797,7 +797,7 @@
               "weight": "130мл",
               "price": "350",
               "id": "help-espresso",
-              "recommend": ["1"],
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
               "image": "/static/images/alco.jpg"
             },
             {
@@ -806,8 +806,8 @@
               "weight": "200мл",
               "price": "300",
               "id": "transsib-highway",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576437.jpg"
             },
             {
               "name": "Глинтвейн классический",
@@ -815,8 +815,8 @@
               "weight": "200мл",
               "price": "350",
               "id": "glintwine",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576423.jpg"
             },
             {
               "name": "Карловарская осень",
@@ -824,8 +824,8 @@
               "weight": "180мл",
               "price": "300",
               "id": "carls-autumn",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576441.jpg"
             },
             {
               "name": "Московская лихорадка",
@@ -833,8 +833,8 @@
               "weight": "200мл",
               "price": "300",
               "id": "moscow-insane",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576471.jpg"
             },
             {
               "name": "Глинтвейн в термосе",
@@ -842,8 +842,8 @@
               "weight": "1000мл",
               "price": "1000",
               "id": "glintwine-big",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": " "
             },
             {
               "name": "Пунш в кувшине",
@@ -851,8 +851,8 @@
               "weight": "1000мл",
               "price": "900",
               "id": "punsh",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576428.jpg"
             },
             {
               "name": "Авалокитешвара",
@@ -860,8 +860,8 @@
               "weight": "300мл",
               "price": "400",
               "id": "avalokiteshvra",
-              "recommend": ["1"],
-              "image": "/static/images/alco.jpg"
+              "recommend": ["fruit-plate", "cesar-shrimp", "forel-grill"],
+              "image": "https://imgdepo.com/id/10576403.jpg"
             }
           ]
         },
@@ -877,8 +877,8 @@
               "weight": "210г",
               "price": "500",
               "id": "dhez",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576429.jpg"
             },
             {
               "name": "Б-52",
@@ -886,8 +886,8 @@
               "weight": "50г",
               "price": "300",
               "id": "b52",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576405.jpg"
             },
             {
               "name": "Имбирь - джин шот",
@@ -895,8 +895,8 @@
               "weight": "50г",
               "price": "220",
               "id": "gingerjean-shot",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576438.jpg"
             },
             {
               "name": "Растафарай",
@@ -905,7 +905,7 @@
               "price": "250",
               "id": "rastafarai",
               "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "image": "https://imgdepo.com/id/10576430.jpg"
             },
             {
               "name": "Байконур шот",
@@ -913,8 +913,8 @@
               "weight": "60г",
               "price": "250",
               "id": "baikonur-shot",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576406.jpg"
             },
             {
               "name": "Мексиканский космонавт",
@@ -922,8 +922,8 @@
               "weight": "50г",
               "price": "270",
               "id": "mexican-cosmanaut",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576469.jpg"
             },
             {
               "name": "Унесенные ветром",
@@ -931,8 +931,8 @@
               "weight": "120г",
               "price": "400",
               "id": "unesennie-vetrom",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576440.jpg"
             },
             {
               "name": "Текила бум",
@@ -940,8 +940,8 @@
               "weight": "150г",
               "price": "400",
               "id": "tekilla-boom",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576433.jpg"
             },
             {
               "name": "Боярский",
@@ -949,8 +949,8 @@
               " weight": "50г",
               "price": "200",
               "id": "boyarski",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": " "
             },
             {
               "name": "Шот Облака",
@@ -958,8 +958,8 @@
               "weight": "50г",
               "price": "200",
               "id": "clouds-shot",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "   "
             },
             {
               "name": "Кровавая маленькая Машка",
@@ -967,8 +967,8 @@
               "weight": "50г",
               "price": "280",
               "id": "little-masha",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576443.jpg"
             },
             {
               "name": "Твою мать",
@@ -976,8 +976,8 @@
               "weight": "140г",
               "price": "400",
               "id": "tvoiu-mat",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576432.jpg"
             },
             {
               "name": "Алло-Ne-Алло",
@@ -985,8 +985,8 @@
               "weight": "50г",
               "price": "350",
               "id": "allo",
-              "recommend": ["8"],
-              "image": "/static/images/cappu.jpg"
+              "recommend": [],
+              "image": "https://imgdepo.com/id/10576404.jpg"
             }
           ]
         },
@@ -1002,8 +1002,8 @@
               "weight": "30мл",
               "price": "80",
               "id": "espresso",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["ararat-50", "fruko-shults", "bon-aqua"],
+              "image": "https://imgdepo.com/id/10576943.jpg"
             },
             {
               "name": "Эспрессо-допио",
@@ -1011,8 +1011,8 @@
               "weight": "60мл",
               "price": "140",
               "id": "doppio",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["martel-ws", "sambuka-lamonika", "cheesecacke-ny"],
+              "image": "https://imgdepo.com/id/10576944.jpg"
             },
             {
               "name": "Американо",
@@ -1020,8 +1020,8 @@
               "weight": "120мл",
               "price": "120",
               "id": "Americano",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576933.jpg"
             },
             {
               "name": "Капучино",
@@ -1029,8 +1029,8 @@
               "weight": "180мл",
               "price": "140",
               "id": "Cappucino",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576938.jpg"
             },
             {
               "name": "Гляссе",
@@ -1038,8 +1038,8 @@
               "weight": "180мл",
               "price": "200",
               "id": "glasse",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576934.jpg"
             },
             {
               "name": "Латте",
@@ -1047,8 +1047,8 @@
               "weight": "180мл",
               "price": "200",
               "id": "latte",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": ""
             },
             {
               "name": "Кофе по-венски",
@@ -1056,8 +1056,8 @@
               "weight": "180мл",
               "price": "180",
               "id": "latte",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576939.jpg"
             },
             {
               "name": "Горячий шоколад",
@@ -1065,8 +1065,8 @@
               "weight": "90мл",
               "price": "220",
               "id": "hot-chocolate",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": ""
             },
             {
               "name": "Вкусный какао",
@@ -1074,8 +1074,8 @@
               "weight": "180мл",
               "price": "220",
               "id": "cacao",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576937.jpg"
             },
             {
               "name": "Шмель",
@@ -1084,7 +1084,7 @@
               "price": "200",
               "id": "shmel",
               "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "image": ""
             },
             {
               "name": "Эспрессо корретто",
@@ -1092,8 +1092,8 @@
               "weight": "35мл",
               "price": "200",
               "id": "espresso-correto",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576945.jpg"
             },
             {
               "name": "Зимний-зимний",
@@ -1101,8 +1101,8 @@
               "weight": "180мл",
               "price": "230",
               "id": "winter",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576936.jpg"
             },
             {
               "name": "Ореховый каппучино",
@@ -1110,8 +1110,8 @@
               "weight": "180мл",
               "price": "180",
               "id": "hazelnut-cappu",
-              "recommend": [],
-              "image": "/static/images/cappu.jpg"
+              "recommend": ["tortino", "ice-cream", "fruko-shults"],
+              "image": "https://imgdepo.com/id/10576941.jpg"
             }
           ]
         },
@@ -1128,7 +1128,7 @@
               "price": "160",
               "id": "light-beer",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": ""
             },
             {
               "name": "Пиво светлое 0.33",
@@ -1137,7 +1137,7 @@
               "price": "120",
               "id": "beer-light-small",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": ""
             },
             {
               "name": "Пиво темное 0.5",
@@ -1146,7 +1146,7 @@
               "price": "160",
               "id": "dark-beer",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": ""
             },
             {
               "name": "Пиво темное 0.33",
@@ -1155,7 +1155,7 @@
               "price": "120",
               "id": "dark-beer-small",
               "recommend": ["8", "7", "6", "14"],
-              "image": "/static/images/cappu.jpg"
+              "image": ""
             },
             {
               "name": "Ягер-бомба",
